@@ -12,7 +12,7 @@ I enjoy taking projects from research ideas to stable, production-ready systems.
 
 ---
 
-## Skills
+## Skills {#skills}
 
 **Machine Learning & Deep Learning**
 
