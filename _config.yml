@@ -116,8 +116,8 @@ analytics:
 # Site Author
 author:
   name             : "David Onaiyekan"
-  avatar           : "/assets/images/bio-photo.jpg" # put your profile image here
-  bio              : "Machine Learning & AI Engineer with a focus on computer vision, generative models, and MLOps. Currently working as a Tech Support Specialist while building production-ready ML systems."
+  avatar           : "/assets/images/bio-photo.jpg" # add this file later if you want a photo
+  bio              : "Machine Learning & AI Engineer focusing on computer vision, generative models, and MLOps. Currently working as a Tech Support Specialist while building production-ready ML systems."
   location         : "Bavaria, Germany"
   email            : "davidmayowaonaiyekan@gmail.com"
   links:
@@ -130,9 +130,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122"
-    - label: "Portfolio"
-      icon: "fas fa-fw fa-link"
-      url: "https://devo002.github.io"
 
 # Site Footer
 footer:
@@ -143,9 +140,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:davidmayowaonaiyekan@gmail.com"
   since: "2025"
 
 # Reading Files
