@@ -1,14 +1,9 @@
 ---
 layout: single
-title: "David Onaiyekan"
+title: ""
 permalink: /
-author_profile: true   # hide the big name card on the left
+author_profile: false   # hide the big name card on the left
 ---
-
-## Machine Learning & AI Engineer
-
-I'm a Machine Learning & AI Engineer with a focus on **computer vision**, **generative models**, and **MLOps**.  
-I enjoy taking projects from research ideas to stable, production-ready systems.
 
 ---
 
