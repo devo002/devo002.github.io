@@ -20,7 +20,7 @@ url                      : "https://devo002.github.io"   # the base hostname & p
 baseurl                  : ""                            # no subpath since this is a user site
 repository               : "devo002/devo002.github.io"   # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/davidlogo.png"# path of logo image to display in the masthead
+logo                     : "/assets/davidlogo.png"       # path of logo image to display in the masthead
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
