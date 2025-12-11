@@ -2,7 +2,7 @@
 layout: single
 title: ""
 permalink: /
-author_profile: false   # hide the big name card on the left
+author_profile: true   # hide the big name card on the left
 ---
 
 ---
