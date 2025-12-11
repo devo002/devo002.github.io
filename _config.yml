@@ -115,7 +115,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "David"
+  name             : ""
   avatar           : "/assets/davidpassport.jpg" # add this file later if you want a photo
   bio              : "Machine Learning & AI Engineer focusing on computer vision, generative models, and MLOps. Currently working as a Tech Support Specialist while building production-ready ML systems."
   location         : "Bavaria, Germany"
