@@ -56,6 +56,7 @@ author_profile: true   # hide the big name card on the left
 - Software installation, configuration, and updates
 - Remote support tools and end-user assistance
 - Documentation and technical knowledge base creation
+  
 ---
 
 
