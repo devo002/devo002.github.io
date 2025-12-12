@@ -39,7 +39,7 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/git.svg" alt="Git" />
   <img src="/assets/icons/github.svg" alt="Github" />
   <img src="/assets/icons/numpy.svg" alt="Numpy" />
-  <img src="/assets/icons/Docker.svg" alt="Docker" />
+  <img src="/assets/icons/docker.svg" alt="Docker" />
   <img src="/assets/icons/langchain.svg" alt="Langchain" />
   <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
