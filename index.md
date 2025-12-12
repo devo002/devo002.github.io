@@ -84,6 +84,7 @@ author_profile: true   # hide the big name card on the left
 
 > **Tech:** PyTorch, GANS, Hugging face, DINOv2-L, EfficientNetV2-L, VGG19, Streamlit, Diffusion Model  
 > **Role:** End-to-end design, training, evaluation, to show that modern backbone models improve the realism of a handwriting style.
+
 <a href="https://github.com/devo002/Handwriting_generation" 
    target="_blank" 
    class="project-link">
@@ -99,12 +100,14 @@ author_profile: true   # hide the big name card on the left
 
 > **Tech:** PyTorch, SSL, Hugging face, DINOv2-L, FixMatch, MixMatch, Optuna, Tensorboard, Wandb  
 > **Role:** Implemented a semi-supervised FixMatch-based multi-label classification pipeline, improving defect detection performance to 90% macro F1, outperforming the fully supervised baseline (87% macro F1).
+
 <a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
    target="_blank" 
    class="project-link">
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
+
 ---
 
 If you’d like to know more about any of these projects or collaborate, feel free to reach out at  
