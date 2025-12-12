@@ -11,15 +11,13 @@ author_profile: true   # hide the big name card on the left
 
 **Machine Learning & Deep Learning**
 
-- Supervised and semi-supervised learning (FixMatch, MixMatch)  
-- CNNs, transformers, sequence models  
-- Model evaluation, cross-validation, hyperparameter tuning (Optuna)
+- Computer vision, image processing
+-	LLMs & Prompt Engineering (GPT, LLaMA, RAG, LangChain)
+-	Generative AI (GANs, Diffusion Models)
+-	Model training, evaluation & performance optimization
+-	Hyperparameter tuning (Optuna), model validation
+-	Experiment tracking & versioning (TensorBoard)
 
-**Computer Vision & Generative Models**
-
-- Defect detection, handwriting recognition, object proposals  
-- GAN-based and diffusion-based handwriting and style generation  
-- OpenCV, image preprocessing, data augmentation
 
 **MLOps & Engineering**
 
@@ -36,43 +34,31 @@ author_profile: true   # hide the big name card on the left
 
 ## Featured Projects {#projects}
 
-### 1. Semi-Supervised Defect Detection in Coil Winding
+### 1. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia: 
+-	Designed and implemented an intelligent RAG chatbot leveraging NVIDIA LLaMA models integrated with FastAPI and Gradio for interactive document-based conversations. 
+-	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
+-	Containerized the system with Docker to support reliable deployment and scalability.
 
-Built a semi-supervised pipeline using **FixMatch** on **DINOv2** and **EfficientNetV2** backbones to classify defects in coil winding images with very few labeled samples.  
-Achieved strong **macro F1** scores and used **Optuna** to tune hyperparameters.
-
-> **Tech:** PyTorch, DINOv2, EfficientNetV2, FixMatch, MixMatch, Optuna, Computer Vision  
-> **Role:** End-to-end design, training, evaluation, reporting
-
----
-
-### 2. Handwriting Generation with AFFGAN & Diffusion Models
-
-Reproduced and extended the **AFFGANwriting** framework for handwriting style generation.  
-Explored replacing the original VGG backbone with **EfficientNet** and **DINOv2** and experimented with **diffusion models** as alternative generators to improve visual quality and FID.
-
-> **Tech:** PyTorch, GANs, Diffusion Models, EfficientNet, DINOv2  
-> **Focus:** Model architecture, style representation, qualitative and quantitative evaluation
+> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA 
 
 ---
 
-### 3. Handwriting Recognition (ConTran-based Pipeline)
+### 2. Handwriting Generation (AFFGANwriting Improvement):
+-	Redesigned the handwriting style encoder using a custom transformer model, improving writing realism and increasing user study pick-rates by 40%. 
+-	Developed an interactive web application using Streamlit, enabling users to input text to generate and experiment with handwriting styles dynamically.
 
-Implemented an encoder–decoder handwriting recognition system with **CNN + RNN + Attention**.  
-Evaluated different encoders (**VGG19**, **EfficientNetV2**, **ResNet50**) and applied **Grad-CAM** to interpret recognition errors and visualize attention over words.
 
-> **Tech:** PyTorch, CNN/RNN, Attention, Grad-CAM  
-> **Focus:** Architecture comparison, error analysis, visualization
+> **Tech:** PyTorch, GANS, Hugging face, DINOv2-L, EfficientNetV2-L, VGG19, Streamlit, Diffusion Model  
+> **Role:** End-to-end design, training, evaluation, showing that modern backbone models improve the realism of a handwriting style. 
 
 ---
 
-### 4. Selective Search Object Proposal System
+### 3. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils:
+-	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
+-	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
 
-Implemented a custom **Selective Search** algorithm for object proposals: image segmentation, region similarity metrics, and hierarchical merging.  
-Evaluated proposal quality on COCO-style datasets.
-
-> **Tech:** Python, OpenCV, NumPy, Matplotlib  
-> **Focus:** Classical computer vision, algorithm implementation, evaluation
+> **Tech:** PyTorch, SSL, Hugging face, DINOv2-L, FixMatch, MixMatch, Optuna, Tensorboard, Wandb  
+> **Role:** Implemented a semi-supervised FixMatch-based multi-label classification pipeline, improving defect detection performance to 90% macro F1, outperforming the fully supervised baseline (87% macro F1).
 
 ---
 
