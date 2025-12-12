@@ -7,3 +7,28 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* ===== Skills Icon Grid ===== */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  max-width: 700px;
+  margin-top: 1.5rem;
+}
+
+.skill-grid img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(0.9);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.skill-grid img:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%);
+}
