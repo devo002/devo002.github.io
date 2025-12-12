@@ -31,6 +31,17 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/tensorflow.svg" alt="Tensorflow" />
   <img src="/assets/icons/opencv.svg" alt="Open CV" />
   <img src="/assets/icons/jupyter.svg" alt="Jupyter" />
+  <img src="/assets/icons/python.svg" alt="Python" />
+  <img src="/assets/icons/javascript.svg" alt="Javascript" />
+  <img src="/assets/icons/nodedotjs.svg" alt="NodeJS" />
+  <img src="/assets/icons/mongodb.svg" alt="MongoDB" />
+  <img src="/assets/icons/huggingface.svg" alt="Hugging Face" />
+  <img src="/assets/icons/git.svg" alt="Git" />
+  <img src="/assets/icons/github.svg" alt="Github" />
+  <img src="/assets/icons/numpy.svg" alt="Numpy" />
+  <img src="/assets/icons/Docker.svg" alt="Docker" />
+  <img src="/assets/icons/langchain.svg" alt="Langchain" />
+  <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
 ---
 
