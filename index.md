@@ -43,7 +43,20 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/langchain.svg" alt="Langchain" />
   <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
+
+
+**Tech Support & IT Operations**
+
+- Troubleshooting hardware, software, and network issues
+- Linux & Windows system administration
+- User support, incident management, and ticketing systems
+- Network fundamentals (TCP/IP, DNS, DHCP, VPN)
+- Server monitoring, and system diagnostics
+- Software installation, configuration, and updates
+- Remote support tools and end-user assistance
+- Documentation and technical knowledge base creation
 ---
+
 
 ## Featured Projects {#projects}
 
