@@ -26,10 +26,12 @@ author_profile: true   # hide the big name card on the left
 - Working with Linux/Windows servers, networking, and system administration
 
 **Tools & Libraries**
-
-- Python, PyTorch, TensorFlow, scikit-learn  
-- NumPy, Pandas, Matplotlib, OpenCV  
-- Git, GitHub, VS Code, Jupyter
+<div class="skill-grid">
+  <img src="/assets/icons/pytorch.svg" alt="Pytorch" />
+  <img src="/assets/icons/tensorflow.svg" alt="Tensorflow" />
+  <img src="/assets/icons/opencv.svg" alt="Open CV" />
+  <img src="/assets/icons/jupyter.svg" alt="Jupyter" />
+</div>
 ---
 
 ## Featured Projects {#projects}
