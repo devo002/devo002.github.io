@@ -68,6 +68,7 @@ author_profile: true   # hide the big name card on the left
 -	Containerized the system with Docker to support reliable deployment and scalability.
 
 > **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA
+
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
    class="project-link">
