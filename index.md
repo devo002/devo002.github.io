@@ -25,6 +25,7 @@ author_profile: true   # hide the big name card on the left
 - Docker, basic CI/CD, deploying to cloud (AWS / other providers)  
 - Working with Linux/Windows servers, networking, and system administration
 
+
 **Tools & Libraries**
 <div class="skill-grid">
   <img src="/assets/icons/pytorch.svg" alt="Pytorch" />
@@ -43,7 +44,7 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/langchain.svg" alt="Langchain" />
   <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
-
+---
 
 **Tech Support & IT Operations**
 
