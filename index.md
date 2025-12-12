@@ -67,7 +67,13 @@ author_profile: true   # hide the big name card on the left
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
 
-> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA 
+> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA
+<a href="https://github.com/devo002/RAG-chatbot-nvidia" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
 
 ---
 
