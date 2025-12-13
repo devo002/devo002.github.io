@@ -59,6 +59,17 @@ author_profile: true   # hide the big name card on the left
   
 ---
 
+## Education
+### Master of Science (M.Sc.) in Artificial Intelligence
+**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
+*2022 – 2025*
+
+---
+### Bachelor of Technology (B.Tech.) in Computer Science
+**Federal University of Technology, Minna**, Nigeria  
+*2014 – 2018*
+
+---
 
 ## Featured Projects {#projects}
 
