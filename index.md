@@ -67,7 +67,7 @@ author_profile: true   # hide the big name card on the left
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
 
-> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA
+> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA, FAISS
 
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
@@ -108,6 +108,21 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
+
+---
+
+## Work Experience
+### FAU- Department of Chemistry and Pharmarcy - Erlangen, Germany
+IT HIWI | 06/2023 – 09/2025
+
+-	Secured and streamlined network infrastructure (LAN, WAN, VPN, firewalls, routers, switches), improving connectivity, reducing latency by 30%, and enhancing business continuity.
+-	Administered Active Directory and Group Policy Objects (GPO), managing  user accounts, enforcing role-based access, and improving compliance with internal security policies.
+-	Provided Tier 1–3 technical support to end-users, resolving hardware, software, and network issues within SLA timelines, achieving a 95% user satisfaction rating.
+-	Conducted IT audits, compliance checks, and vulnerability assessments, ensuring 100% adherence to internal policies, and other regulatory requirements.
+-	Managed IT procurement, asset tracking, and lifecycle management.
+-	Coordinated with third-party vendors and service providers for escalated technical issues, maintaining 99% SLA compliance and ensuring uninterrupted business operations. 
+-	Implemented network segmentation, VPN access controls, and MFA authentication, significantly improving security posture for remote and hybrid work environments.
+
 
 ---
 
