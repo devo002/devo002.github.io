@@ -13,7 +13,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default)
 title                    : "David Onaiyekan"
 title_separator          : "-"
-subtitle                 : "Machine Learning Engineer & Tech Support Specialist"
+subtitle                 : "Machine Learning Engineer"
 name                     : "David Onaiyekan"
 description              : "Machine Learning & AI Engineer focusing on computer vision, generative models, and MLOps."
 url                      : "https://devo002.github.io"   # the base hostname & protocol for your site
