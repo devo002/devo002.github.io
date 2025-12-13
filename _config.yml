@@ -119,9 +119,7 @@ author:
   name             : ""
   avatar           : "/assets/davidpassport.jpg" # add this file later if you want a photo
   bio              : |
-                      Machine Learning & AI Engineer with a strong foundation in computer vision, generative models, LLM and MLOps, and hands-on experience building end-to-end ML systems through research-driven projects.
-                      Alongside my ML work, I bring professional experience as a Tech Support Specialist, where I developed strong problem-solving skills, system debugging expertise, and a production mindset while working with Linux/Windows systems and customer-facing environments.
-                      I am actively transitioning into a full-time Machine Learning Engineer role, motivated by building reliable, production-ready ML solutions that bridge research and real-world deployment.
+                      Machine Learning & AI Engineer with hands-on experience in **computer vision**, generative models, LLM and MLOps. Strong project background in building production-oriented ML systems using PyTorch, FastAPI, and Docker. Former Tech Support Specialist with strong problem-solving and system-level experience, actively transitioning into a full-time ML Engineer role.
 
   location         : "Bavaria, Germany"
   email            : "davidmayowaonaiyekan@gmail.com"
