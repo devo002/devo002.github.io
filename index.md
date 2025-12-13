@@ -11,7 +11,7 @@ author_profile: true   # hide the big name card on the left
 
 **Machine Learning & Deep Learning**
 
-- Computer vision, image processing
+- Computer vision, Image processing
 -	LLMs & Prompt Engineering (GPT, LLaMA, RAG, LangChain)
 -	Generative AI (GANs, Diffusion Models)
 -	Model training, evaluation & performance optimization
