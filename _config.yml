@@ -144,6 +144,8 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122"
   since: "2025"
+  copyright: "© 2025 David Onaiyekan"
+
 
 # Reading Files
 include:
