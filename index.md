@@ -72,7 +72,25 @@ author_profile: true   # hide the big name card on the left
 
 ## Featured Projects {#projects}
 
-### 1. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia: 
+### 1. Log Analysis System using LLMs on AWS *(12/2025)*
+-	Developed an LLM-powered log analysis service using FastAPI and AWS Bedrock (Claude) to automatically detect error patterns, infer root causes, and generate recommendations.
+-	Reduced manual debugging effort by enabling automatic log clustering and failure diagnosis using LLM reasoning.
+-	Designed the system for S3 + Lambda ingestion pipelines for scalable log processing.
+
+
+> **Tech:** PyTorch, AWS Bedrock (Claude), S3, Lambda, FastAPI, JSON, LLM  
+> **Role:** Sole developer responsible for end-to-end design and implementation.
+
+<a href="https://github.com/devo002/LLM-log-analyzer" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+---
+
+### 2. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)*
 -	Designed and implemented an intelligent RAG chatbot leveraging NVIDIA LLaMA models integrated with FastAPI and Gradio for interactive document-based conversations. 
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
@@ -88,7 +106,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 2. Handwriting Generation (AFFGANwriting Improvement):
+### 3. Handwriting Generation (AFFGANwriting Improvement) *(06/2025 - 11/2025)*:
 -	Redesigned the handwriting style encoder using a custom transformer model, improving writing realism and increasing user study pick-rates by 40%. 
 -	Developed an interactive web application using Streamlit, enabling users to input text to generate and experiment with handwriting styles dynamically.
 
@@ -105,7 +123,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 3. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils:
+### 4. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils *(12/2023 - 12/2024)*:
 -	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
 -	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
 
