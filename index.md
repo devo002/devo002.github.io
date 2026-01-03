@@ -72,13 +72,13 @@ author_profile: true   # hide the big name card on the left
 
 ## Featured Projects {#projects}
 
-### 1. Log Analysis System using LLMs on AWS *(12/2025)*
+### 1. Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
 -	Developed an LLM-powered log analysis service using FastAPI and AWS Bedrock (Claude) to automatically detect error patterns, infer root causes, and generate recommendations.
 -	Reduced manual debugging effort by enabling automatic log clustering and failure diagnosis using LLM reasoning.
--	Designed the system for S3 + Lambda ingestion pipelines for scalable log processing.
+-	Designed and implemented an event-driven log analysis pipeline using AWS S3 + AWS Lambda, with automated result persistence and CloudWatch-based observability.
 
 
-> **Tech:** PyTorch, AWS Bedrock (Claude), S3, Lambda, FastAPI, JSON, LLM  
+> **Tech:** PyTorch, AWS Bedrock (Claude), S3, Lambda, CloudWatch FastAPI, JSON, LLM  
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
 <a href="https://github.com/devo002/LLM-log-analyzer" 
