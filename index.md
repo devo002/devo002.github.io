@@ -12,7 +12,7 @@ author_profile: true   # hide the big name card on the left
 **Machine Learning & Deep Learning**
 
 - Computer vision, Image processing
--	LLMs & Prompt Engineering (GPT, LLaMA, RAG, LangChain)
+-	Large Language Models (OpenAI, Prompt Engineering, RAG, AI Agents, LangChain)
 -	Generative AI (GANs, Diffusion Models)
 -	Model training, evaluation & performance optimization
 -	Hyperparameter tuning (Optuna), model validation
@@ -21,9 +21,9 @@ author_profile: true   # hide the big name card on the left
 
 **MLOps & Engineering**
 
-- FastAPI, REST APIs, Streamlit / Gradio apps  
-- Docker, basic CI/CD, deploying to cloud (AWS / other providers)  
-- Working with Linux/Windows servers, networking, and system administration
+- FastAPI, REST APIs, Streamlit, Gradio apps  
+- Docker, CI/CD, Cloud (AWS)
+- Vector Databases & Similarity Search: ChromaDB, FAISS  
 
 
 **Tools & Libraries**
@@ -72,7 +72,25 @@ author_profile: true   # hide the big name card on the left
 
 ## Featured Projects {#projects}
 
-### 1. Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
+### 1. Enterprise Multi-Domain RAG AI Agent with Real-Time Streaming *(01/2026)*
+-	Designed and implemented a *real-time AI agent* powered by OpenAI LLM that answers enterprise policy and FAQ questions using Retrieval-Augmented Generation (RAG), producing grounded responses with source citations from internal knowledge bases.
+-	Developed an automated routing layer that enables the AI agent to classify user queries and dynamically select the appropriate domain-specific knowledge base (HR, Finance, IT), demonstrating tool-selection and agentic decision-making.
+-	Deployed the production-ready AI Agent on Render (backend) and Vercel (frontend).
+
+
+> **Tech:** Python, FastAPI, OpenAI LLMs, LangChain, RAG Pipelines, ChromaDB, SQLite, Vercel, Render, GitHub CI/CD  
+> **Role:** Sole developer responsible for end-to-end design and implementation.
+
+<a href="https://github.com/devo002/Enterprise-RAG-AI-Agent" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+
+
+### 2. Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
 -	Developed an LLM-powered log analysis service using FastAPI and AWS Bedrock (Claude) to automatically detect error patterns, infer root causes, and generate recommendations.
 -	Reduced manual debugging effort by enabling automatic log clustering and failure diagnosis using LLM reasoning.
 -	Designed and implemented an event-driven log analysis pipeline using AWS S3 + AWS Lambda, with automated result persistence and CloudWatch-based observability.
@@ -90,7 +108,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 2. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)*
+### 3. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)*
 -	Designed and implemented an intelligent RAG chatbot leveraging NVIDIA LLaMA models integrated with FastAPI and Gradio for interactive document-based conversations. 
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
@@ -106,7 +124,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 3. Handwriting Generation (AFFGANwriting Improvement) *(06/2025 - 11/2025)*:
+### 4. Handwriting Generation (AFFGANwriting Improvement) *(06/2025 - 11/2025)*:
 -	Redesigned the handwriting style encoder using a custom transformer model, improving writing realism and increasing user study pick-rates by 40%. 
 -	Developed an interactive web application using Streamlit, enabling users to input text to generate and experiment with handwriting styles dynamically.
 
@@ -123,7 +141,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 4. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils *(12/2023 - 12/2024)*:
+### 5. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils *(12/2023 - 12/2024)*:
 -	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
 -	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
 
