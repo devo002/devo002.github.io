@@ -96,7 +96,7 @@ author_profile: true   # hide the big name card on the left
 -	Designed and implemented an event-driven log analysis pipeline using AWS S3 + AWS Lambda, with automated result persistence and CloudWatch-based observability.
 
 
-> **Tech:** PyTorch, AWS Bedrock (Claude), S3, Lambda, CloudWatch FastAPI, JSON, LLM  
+> **Tech:** Python, AWS Bedrock (Claude), S3, Lambda, CloudWatch FastAPI, JSON, LLM  
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
 <a href="https://github.com/devo002/LLM-log-analyzer" 
@@ -113,7 +113,7 @@ author_profile: true   # hide the big name card on the left
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
 
-> **Tech:** PyTorch, FastAPI, Gradio, SQLite, Docker, NVIDIA, FAISS
+> **Tech:** Python, FastAPI, Gradio, SQLite, Docker, NVIDIA, FAISS
 
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
