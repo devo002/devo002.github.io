@@ -73,7 +73,7 @@ author_profile: true   # hide the big name card on the left
 ## Featured Projects {#projects}
 
 ### 1. AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
--	•	Designed an end-to-end *automated pipeline in n8n* that monitors incoming job emails, extracts job descriptions, and processes them for AI-based evaluation.
+-	Designed an end-to-end automated pipeline in n8n that monitors incoming job emails, extracts job descriptions, and processes them for AI-based evaluation.
 -	Built a Retrieval-Augmented Generation (RAG) system using OpenAI embeddings and Pinecone vector database to compare job requirements against a candidate’s CV using semantic similarity search.
 -	Designed a rule-based + AI agent to classify opportunities into Apply / Maybe / Skip using skill alignment, seniority, and requirement matching.
 
