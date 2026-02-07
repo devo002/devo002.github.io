@@ -102,7 +102,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 4. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)*
+### 4. Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)
 -	Designed and implemented an intelligent RAG chatbot leveraging NVIDIA Llama models integrated with FastAPI and Gradio for interactive document-based conversations. 
 -	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
 -	Containerized the system with Docker to support reliable deployment and scalability.
@@ -118,12 +118,12 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 5. Handwriting Generation (AFFGANwriting Improvement) *(06/2025 - 11/2025)*:
+### 5. Handwriting Generation (AFFGANwriting Improvement) (06/2025 - 11/2025):
 -	Redesigned the handwriting style encoder using a custom transformer model, improving writing realism and increasing user study pick-rates by 40%. 
 -	Developed an interactive web application using Streamlit, enabling users to input text to generate and experiment with handwriting styles dynamically.
 
 
-> **Tech:** PyTorch, GANs, Hugging face, CNNs, Transformer Models, Streamlit. 
+> **Tech:** PyTorch, GANs, Hugging face, CNNs, Transformer Models, Streamlit
 > **Role:** End-to-end design, training, evaluation, to show that modern backbone models improve the realism of a handwriting style.
 
 <a href="https://github.com/devo002/Handwriting_generation" 
@@ -135,7 +135,7 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 6. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils *(12/2023 - 12/2024)*:
+### 6. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils (12/2023 - 12/2024):
 -	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
 -	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
 -	Delivered comprehensive, reproducible documentation and code, publicly available on GitHub. 
