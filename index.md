@@ -178,5 +178,21 @@ IT HIWI | 06/2023 – 09/2025
 
 ---
 
+### Lifebridge Medical Diagnostics Center, Abuja Nigeria
+IT Officer | 04/2021 – 11/2022
+
+-	Delivered hands-on IT support to end users, troubleshooting hardware, software, and network-related issues across Windows and macOS environments.
+-	Performed structured incident triage, prioritizing tickets based on business impact and ensuring timely resolution within SLA targets.
+-	Supported user onboarding and offboarding processes, including account provisioning, access control, and device setup.
+-	Utilized collaboration tools such as Google Workspace and Slack for communication within company in resolving configuration and access issues.
+-	Worked with identity and access management systems to manage authentication, permissions, and MFA configurations.
+-	Provided System setup, configuration, and troubleshooting support, ensuring secure and optimized device performance.
+-	Communicated technical issues in clear, non-technical language to ensure end users understood solutions and preventative steps.
+-	Documented recurring issues and created internal knowledge base articles to streamline future troubleshooting.
+-	Proactively identified recurring system issues and implemented improvements to reduce incident frequency.
+-	Collaborated with cross-functional teams to resolve complex infrastructure and application-related issues
+
+---
+
 If you’d like to know more about any of these projects or collaborate, feel free to reach out at  
 📧 **davidmayowaonaiyekan@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122).
