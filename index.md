@@ -18,7 +18,9 @@ author_profile: true   # hide the big name card on the left
 - Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
 - Automation & Workflows: n8n, AI Workflow Orchestration
 - Software Engineering: REST APIs, Node.js
-- Developer Tools: Git, GitHub, GitLab, Linux, Cursor, VS Code
+- Developer Tools: Git, GitHub, GitLab, Linux, Claude Code
+- Development Environment: Linux
+- IDEs/Editors: VS Code, Cursor, Claude Code
 
 
 ## Projects {#projects}
