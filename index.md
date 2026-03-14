@@ -15,10 +15,10 @@ author_profile: true   # hide the big name card on the left
 - Generative AI: GANs, Diffusion Models
 - Data & Experimentation: NumPy, Pandas, Feature Engineering, Optuna, TensorBoard
 - Vector Search & Databases: FAISS, Pinecone, ChromaDB, PostgreSQL, SQLite, MongoDB
-- Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
+- Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions)
 - Automation & Workflows: n8n, AI Workflow Orchestration
 - Software Engineering: REST APIs, Node.js
-- Developer Tools: Git, GitHub, GitLab, Linux, Claude Code
+- Developer Tools: Git, GitHub, GitLab
 - Development Environment: Linux
 - IDEs/Editors: VS Code, Cursor, Claude Code
 
