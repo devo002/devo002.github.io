@@ -13,9 +13,9 @@ locale                   : "en-US"
 rtl                      : # true, false (default)
 title                    : "David Onaiyekan"
 title_separator          : "-"
-subtitle                 : "Machine Learning Engineer"
+subtitle                 : "Artificial Intelligence Engineer"
 name                     : "David Onaiyekan"
-description              : "Machine Learning & AI Engineer focusing on computer vision, generative models, and MLOps."
+description              : "AI Engineer & ML Engineer focusing on computer vision, generative models, LLM, RAG and MLOps."
 url                      : "https://devo002.github.io"   # the base hostname & protocol for your site
 baseurl                  : ""                            # no subpath since this is a user site
 repository               : "devo002/devo002.github.io"   # GitHub username/repo-name
