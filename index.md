@@ -124,7 +124,17 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### 7. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils (12/2023 - 12/2024):
+### 7. Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
+-	Selective search object detection. Built selective search end-to-end (Felzenszwalb regions, color/texture/size/fill similarities, hierarchical merging) and trained an SVM on the proposals to detect objects in a balloon dataset.
+-	Video face recognition system. Combined MTCNN detection with template-matching tracking, FaceNet embeddings, and from-scratch k-NN and k-means for closed-set identification, open-set recognition, and re-identification.
+
+
+
+> **Tech:** Python, OpenCV, ResNet-50 via ONNX, Scikit-learn, Numpy
+
+---
+
+### 8. Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils (12/2023 - 12/2024):
 -	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
 -	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
 -	Delivered comprehensive, reproducible documentation and code, publicly available on GitHub. 
