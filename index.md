@@ -33,7 +33,7 @@ author_profile: true   # hide the big name card on the left
 > **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
-<a href="https://github.com/devo002/Budget-Tracker" 
+<a href="https://github.com/devo002/AI_Ticket_Agent" 
    target="_blank" 
    class="project-link">
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
