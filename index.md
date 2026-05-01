@@ -10,11 +10,11 @@ author_profile: true   # hide the big name card on the left
 ## Technical Skills {#skills}
 
 - Programming Languages: Python, JavaScript, TypeScript
-- ML / AI: PyTorch, TensorFlow, Scikit-learn, Computer Vision, Image Processing
+- ML / AI: PyTorch, TensorFlow, Scikit-learn, Computer Vision, OpenCV, Image Processing
 - LLMs & RAG: OpenAI, Hugging Face, LangChain, Prompt Engineering, RAG, AI Agents
 - Generative AI: GANs, Diffusion Models
 - Data & Experimentation: NumPy, Pandas, Feature Engineering, Optuna, TensorBoard
-- Vector Search & Databases: FAISS, Pinecone, ChromaDB, PostgreSQL, SQLite, MongoDB
+- Vector Search & Databases: FAISS, Pinecone, ChromaDB, PostgreSQL, SQLite, MongoDB, Supabase, Firebase.
 - Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions)
 - Automation & Workflows: n8n, AI Workflow Orchestration
 - Software Engineering: REST APIs, Node.js
