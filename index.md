@@ -20,6 +20,18 @@ author_profile: true   # hide the big name card on the left
 - Software Engineering: astAPI, REST APIs, Node.js
 - Developer Tools: Git, GitHub, GitLab
 - IDEs/Editors: VS Code, Cursor
+---
+
+## Education
+### Master of Science (M.Sc.) in Artificial Intelligence
+**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
+*2022 – 2025*
+
+### Bachelor of Technology in Computer Science
+**Federal University of Technology Minna**, Nigeria  
+*2014 – 2018*
+
+---
 
 
 ## Projects {#projects}
@@ -204,16 +216,6 @@ author_profile: true   # hide the big name card on the left
 </div>
 ---
 
-## Education
-### Master of Science (M.Sc.) in Artificial Intelligence
-**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
-*2022 – 2025*
-
-### Bachelor of Technology in Computer Science
-**Federal University of Technology Minna**, Nigeria  
-*2014 – 2018*
-
----
 
 
 **Tech Support & IT Operations**
