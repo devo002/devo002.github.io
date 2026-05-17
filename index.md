@@ -20,6 +20,7 @@ author_profile: true   # hide the big name card on the left
 - Software Engineering: astAPI, REST APIs, Node.js
 - Developer Tools: Git, GitHub, GitLab
 - IDEs/Editors: VS Code, Cursor
+
 ---
 
 ## Education
