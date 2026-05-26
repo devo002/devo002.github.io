@@ -17,7 +17,7 @@ author_profile: true   # hide the big name card on the left
 - Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, FAISS, Pinecone, ChromaDB.
 - Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
 - Automation & Workflows: n8n, AI Workflow Orchestration
-- Software Engineering: astAPI, REST APIs, Node.js
+- Software Engineering: FastAPI, REST APIs, Node.js
 - Developer Tools: Git, GitHub, GitLab
 - IDEs/Editors: VS Code, Cursor
 
