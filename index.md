@@ -35,14 +35,14 @@ author_profile: true   # hide the big name card on the left
 ---
 
 
-## Projects {#projects}
+## Key Projects {#projects}
 
 ###   Smart Dispatcher — Agentic ticket triage & dispatch  *(05/2026)*
 -	Built an agentic system that triages support tickets and proposes structured dispatch plans with primary and backup plans. 
 - Designed a 6-node LangGraph workflow with a self-correction loop that recovers when the primary fix needs a discontinued part — surfacing a firmware workaround without re-prompting the LLM.
 - Shipped a React + FastAPI dispatcher dashboard with a human-in-the-loop approval gate, MCP-exposed tools for cross-client reuse.
 
-> **Tech:** Python, LangGraph, Claude (Anthropic SDK), Model Context Protocol (MCP),  ChromaDB, FastAPI, React, Tailwind, Pydantic, SQLite.
+> **Tech:** Python, LangGraph, Claude (Anthropic SDK), Model Context Protocol (MCP),  ChromaDB, FastAPI, React, Tailwind, Pydantic, SQLite, Docker.
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
 <a href="https://github.com/devo002/Smart-dispatcher-Agent.git" 
@@ -50,6 +50,13 @@ author_profile: true   # hide the big name card on the left
    class="project-link">
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
+</a>
+
+<a href="https://smart-dispatcher-agent.onrender.com/"
+   target="_blank"
+   class="project-link">
+  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
+  View Live Demo
 </a>
 
 
@@ -153,12 +160,13 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### Handwriting Generation (AFFGANwriting Improvement) (06/2025 - 11/2025):
--	Redesigned the handwriting style encoder using a custom transformer model, improving writing realism and increasing user study pick-rates by 40%. 
--	Developed an interactive web application using Streamlit, enabling users to input text to generate and experiment with handwriting styles dynamically.
+## Research Experience
+### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
+-	Spearheaded the integration of a custom Transformer-based encoder into the AFFGANwriting pipeline, replacing the legacy VGG19 architecture to capture richer, high-fidelity writer-style representations.
+- Boosted user-study pick-rates by 40%, demonstrating a significant leap in the perceptual quality and realism of the generated handwriting compared to the baseline model.
+- Enhanced OCR performance by 20% by implementing a teacher-student framework that leveraged a TrOCR benchmark model for auxiliary training alignment.
 
-
-> **Tech:** PyTorch, GANs, Hugging face, CNNs, Transformer Models, Streamlit
+> **Tech:** PyTorch, GANs, CNNs, Transformer Models, Streamlit, GPU.
 > **Role:** End-to-end design, training, evaluation, to show that modern backbone models improve the realism of a handwriting style.
 
 <a href="https://github.com/devo002/Handwriting_generation" 
@@ -180,10 +188,10 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-### Semi-Supervised Learning for Image Classification in Visual Inspection of Wound Coils (12/2023 - 12/2024):
--	Implemented the FixMatch semi-supervised learning (SSL) algorithm with the Dinov2L backbone to accurately classify defects in coil winding datasets, achieving a macro-average F1 score of 90% on the test set.
--	Conducted hyperparameter optimization using Optuna, identifying optimal configurations to maximize model performance.
--	Delivered comprehensive, reproducible documentation and code, publicly available on GitHub. 
+### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
+-	Collaborated within a research team to execute systematic data cleaning using Cleanlab Studio, identifying and correcting label noise across thousands of industrial images to establish a high-fidelity data baseline
+- Designed and engineered a Semi-Supervised Learning (SSL) pipeline utilizing the FixMatch algorithm integrated with a DINOv2-L backbone, successfully leveraging unlabeled coil-winding datasets to mitigate data scarcity constraints.
+- Achieved a 90% macro-average F1 score on multi-label defect classification, optimizing training strategy trade-offs to ensure robust generalization across diverse defect categories.. 
 
 > **Tech:** PyTorch, SSL, Hugging face, DINOv2-L, EfficientNetV2-L, FixMatch, MixMatch, Optuna, Tensorboard, Wandb  
 > **Role:** Implemented a semi-supervised FixMatch-based multi-label classification pipeline, improving defect detection performance to 90% macro F1, outperforming the fully supervised baseline (87% macro F1).
