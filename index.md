@@ -12,7 +12,7 @@ author_profile: true   # hide the big name card on the left
 - Programming Languages: Python, JavaScript, TypeScript
 - ML / AI:  PyTorch, TensorFlow, Scikit-learn, Feature Engineering, Optuna, TensorBoard
 - Computer Vision: OpenCV, Image Processing.
-- Generative AI & Frameworks: OpenAI, Anthropic, Hugging Face, LangChain, LangGraph, RAG, Prompt Engineering, MCP.
+- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LiamaIndex, RAG, Prompt Engineering, MCP.
 - Data & Analytics:  NumPy, Pandas
 - Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, FAISS, Pinecone, ChromaDB.
 - Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
@@ -108,7 +108,7 @@ author_profile: true   # hide the big name card on the left
 -	Deployed the production-ready AI Agent on Render (backend) and Vercel (frontend).
 
 
-> **Tech:** Python, FastAPI, OpenAI LLMs, LangChain, RAG, ChromaDB, SQLite, Vercel, Render, GitHub CI/CD  
+> **Tech:**  Python, FastAPI, LlamaIndex, GPT-4o, RAG, ChromaDB, GitHub CI/CD  
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
 <a href="https://github.com/devo002/Enterprise-RAG-AI-Agent" 
