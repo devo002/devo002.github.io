@@ -12,9 +12,9 @@ author_profile: true   # hide the big name card on the left
 - Programming Languages: Python, JavaScript, TypeScript
 - ML / AI:  PyTorch, TensorFlow, Scikit-learn, Feature Engineering, Optuna, TensorBoard
 - Computer Vision: OpenCV, Image Processing.
-- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LiamaIndex, RAG, Prompt Engineering, MCP.
+- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
 - Data & Analytics:  NumPy, Pandas
-- Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, FAISS, Pinecone, ChromaDB.
+- Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
 - Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
 - Automation & Workflows: n8n, AI Workflow Orchestration
 - Software Engineering: FastAPI, REST APIs, Node.js
@@ -59,6 +59,30 @@ author_profile: true   # hide the big name card on the left
   View Live Demo
 </a>
 
+### RAG-Powered Document Chat System *(03/26 - 05/26)*
+-	Built a full-stack RAG document chat app where users upload PDFs, which are afterwards chunked, embedded, and stored in Qdrant Cloud — enabling real-time Q&A with streaming responses and inline source citations showing the exact page number for every answer.
+-	Implemented a retrieval pipeline that embeds user questions, performs cosine similarity search across indexed chunks, and injects top results as grounded context into Claude — with support for filtering chat across multiple uploaded documents.
+-	Built a RAGAS-inspired evaluation pipeline that runs automated test questions and uses Claude as an LLM judge to score answers on Faithfulness and Answer Relevancy, with scores displayed directly in the UI.
+
+
+> **Tech:**  Python, FastAPI, LlamaIndex, SSE streaming, RAG, Qdrant, Docker, Railway, GitHub CI/CD.  
+> **Role:** Sole developer responsible for end-to-end design and implementation.
+
+<a href="https://github.com/devo002/RAG-doc-chat" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+<a href="https://exemplary-manifestation-production-dcca.up.railway.app/"
+   target="_blank"
+   class="project-link">
+  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
+  View Live Demo
+</a>
+
+
 
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 -	Built an AI-powered Bridge Agent in Python that autonomously classifies Microsoft Teams messages, cross-references client ARR via HubSpot CRM, and deduplicates against a Jira backlog — reducing manual ticket creation to a one-click review workflow.
@@ -83,7 +107,7 @@ author_profile: true   # hide the big name card on the left
 -	Built a responsive dashboard with real-time financial summaries and deployed the application using Vercel with a Neon cloud database, enabling cross-device access including mobile usage.
 
 
-> **Tech:** Typescript, Next.js(React), Prisma Studio, PostgreSQL(Neon), Github, Vercel.
+> **Tech:** Typescript, Next.js, Prisma Studio, PostgreSQL(Neon), Github, Vercel.
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
 <a href="https://github.com/devo002/Budget-Tracker" 
@@ -91,6 +115,13 @@ author_profile: true   # hide the big name card on the left
    class="project-link">
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
+</a>
+
+<a href="https://budget-tracker-lac-six.vercel.app/dashboard"
+   target="_blank"
+   class="project-link">
+  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
+  View Live Demo
 </a>
 
 ### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
@@ -101,29 +132,6 @@ author_profile: true   # hide the big name card on the left
 
 > **Tech:**  n8n, OpenAI (Embeddings + LLMs), Pinecone, Retrieval-Augmented Generation (RAG), Semantic Similarity Search, AI Agents, Python, Email APIs (IMAP/Gmail), Multilingual Processing (DE ↔ EN translation), Rule-based decision logic.
 
-
-### Enterprise Multi-Domain RAG AI Agent with Real-Time Streaming *(01/2026)*
--	Designed and implemented a *real-time AI agent* powered by OpenAI LLM that answers enterprise policy and FAQ questions using Retrieval-Augmented Generation (RAG), producing grounded responses with source citations from internal knowledge bases.
--	Developed an automated routing layer that enables the AI agent to classify user queries and dynamically select the appropriate domain-specific knowledge base (HR, Finance, IT), demonstrating tool-selection and agentic decision-making.
--	Deployed the production-ready AI Agent on Render (backend) and Vercel (frontend).
-
-
-> **Tech:**  Python, FastAPI, LlamaIndex, GPT-4o, RAG, ChromaDB, GitHub CI/CD  
-> **Role:** Sole developer responsible for end-to-end design and implementation.
-
-<a href="https://github.com/devo002/Enterprise-RAG-AI-Agent" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
-<a href="https://enterprise-rag-ai-agent.vercel.app/"
-   target="_blank"
-   class="project-link">
-  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
-  View Live Demo
-</a>
 
 
 ### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
