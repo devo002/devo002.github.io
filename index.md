@@ -45,7 +45,7 @@ author_profile: true   # hide the big name card on the left
 > **Tech:** Python, LangGraph, Claude (Anthropic SDK), Model Context Protocol (MCP),  ChromaDB, FastAPI, React, Tailwind, Pydantic, SQLite, Docker.
 > **Role:** Sole developer responsible for end-to-end design and implementation.
 
-<a href="https://github.com/devo002/Smart-dispatcher-Agent.git" 
+<a href="https://empire-smart-dispatcher-production.up.railway.app/" 
    target="_blank" 
    class="project-link">
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
