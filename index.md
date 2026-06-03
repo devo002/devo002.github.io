@@ -94,12 +94,13 @@ Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude 
 </a>
 
 ### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
-- n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
+n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
 > **Tech:** n8n, OpenAI, Pinecone, RAG, Python, IMAP
 
 ### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
-- Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
+Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
 > **Tech:** Python, AWS, Bedrock, Lambda, S3, CloudWatch, FastAPI
+
 <a href="https://github.com/devo002/LLM-log-analyzer" 
    target="_blank" 
    class="project-link">
@@ -108,8 +109,9 @@ Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude 
 </a>
 
 ### RAG Chatbot with Nvidia (10/2025 - 11/2025)
-- Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
+Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
 > **Tech:** Python, NVIDIA, Llama, FAISS, FastAPI, Docker
+
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
    class="project-link">
@@ -121,8 +123,9 @@ Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude 
 
 ## Research Experience
 ### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
-- Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
+Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
 > **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
+
 <a href="https://github.com/devo002/Handwriting_generation" 
    target="_blank" 
    class="project-link">
@@ -133,8 +136,9 @@ Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude 
 ---
 
 ### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
-- Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
+Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
 > **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
+
 <a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
    target="_blank" 
    class="project-link">
@@ -145,7 +149,7 @@ Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude 
 ---
 
 ### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
-- Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
+Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
 > **Tech:** Python OpenCV ResNet-50 Scikit-learn
 
 ---
