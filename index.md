@@ -1,219 +1,116 @@
----
 layout: single
 title: ""
 permalink: /
-author_profile: true   # hide the big name card on the left
----
+author_profile: true
+<style>
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 16px 0 24px;
+}
+.demo-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #fafafa;
+}
+.demo-card h4 { margin: 0 0 4px; font-size: 15px; }
+.demo-card p { margin: 0 0 10px; font-size: 13px; color: #555; line-height: 1.4; }
+.demo-tag { font-size: 11px; background: #e8f0fe; color: #1a56db; border-radius: 4px; padding: 2px 7px; display: inline-block; margin-bottom: 8px; }
+.demo-btn {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 1px solid #1a56db;
+  border-radius: 5px;
+  color: #1a56db;
+  text-decoration: none;
+  margin-right: 6px;
+}
+.demo-btn:hover { background: #e8f0fe; }
+.proj-compact { border-left: 3px solid #e0e0e0; padding: 6px 0 6px 14px; margin: 12px 0; }
+.proj-compact h3 { margin: 0 0 4px; font-size: 15px; }
+.proj-compact p { margin: 0 0 6px; font-size: 13px; color: #444; }
+.proj-compact .tech { font-size: 11px; color: #777; }
+</style>
 
----
+🔴 Live Demos {#demos}
+<div class="demo-grid">
+  <div class="demo-card">
+    <span class="demo-tag">Agentic AI</span>
+    <h4>Smart Dispatcher</h4>
+    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop — no re-prompting needed when a fix fails</p>
+    <a class="demo-btn" href="https://smart-dispatcher-agent.onrender.com/" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">Code</a>
+  </div>
+  <div class="demo-card">
+    <span class="demo-tag">RAG</span>
+    <h4>RAG Doc Chat</h4>
+    <p>Upload PDFs and chat with them — streaming answers with inline source citations and an automated RAGAS eval pipeline</p>
+    <a class="demo-btn" href="https://exemplary-manifestation-production-dcca.up.railway.app/" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
+  </div>
+  <div class="demo-card">
+    <span class="demo-tag">Full-stack</span>
+    <h4>Budget Tracker</h4>
+    <p>Personal finance tracker with weekly spending limits, real-time summaries, and mobile support — deployed on Vercel + Neon</p>
+    <a class="demo-btn" href="https://budget-tracker-lac-six.vercel.app/dashboard" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://github.com/devo002/Budget-Tracker" target="_blank">Code</a>
+  </div>
+</div>
 
-## Technical Skills {#skills}
+Technical Skills {#skills}
 
-- Programming Languages: Python, JavaScript, TypeScript
-- ML / AI:  PyTorch, TensorFlow, Scikit-learn, Feature Engineering, Optuna, TensorBoard
-- Computer Vision: OpenCV, Image Processing.
-- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
-- Data & Analytics:  NumPy, Pandas
-- Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
-- Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
-- Automation & Workflows: n8n, AI Workflow Orchestration
-- Software Engineering: FastAPI, REST APIs, Node.js
-- Developer Tools: Git, GitHub, GitLab
-- IDEs/Editors: VS Code, Cursor
-
----
-
-## Education
-### Master of Science (M.Sc.) in Artificial Intelligence
-**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
-*2022 – 2025*
-
-### Bachelor of Technology in Computer Science
-**Federal University of Technology Minna**, Nigeria  
-*2014 – 2018*
-
----
-
-
-## Key Projects {#projects}
-
-###   Smart Dispatcher — Agentic ticket triage & dispatch  *(05/2026)*
--	Built an agentic system that triages support tickets and proposes structured dispatch plans with primary and backup plans. 
-- Designed a 6-node LangGraph workflow with a self-correction loop that recovers when the primary fix needs a discontinued part — surfacing a firmware workaround without re-prompting the LLM.
-- Shipped a React + FastAPI dispatcher dashboard with a human-in-the-loop approval gate, MCP-exposed tools for cross-client reuse.
-
-> **Tech:** Python, LangGraph, Claude (Anthropic SDK), Model Context Protocol (MCP),  ChromaDB, FastAPI, React, Tailwind, Pydantic, SQLite, Docker.
-> **Role:** Sole developer responsible for end-to-end design and implementation.
-
-<a href="https://empire-smart-dispatcher-production.up.railway.app/" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
-<a href="https://smart-dispatcher-agent.onrender.com/"
-   target="_blank"
-   class="project-link">
-  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
-  View Live Demo
-</a>
-
-### RAG-Powered Document Chat System *(03/26 - 05/26)*
--	Built a full-stack RAG document chat app where users upload PDFs, which are afterwards chunked, embedded, and stored in Qdrant Cloud — enabling real-time Q&A with streaming responses and inline source citations showing the exact page number for every answer.
--	Implemented a retrieval pipeline that embeds user questions, performs cosine similarity search across indexed chunks, and injects top results as grounded context into Claude — with support for filtering chat across multiple uploaded documents.
--	Built a RAGAS-inspired evaluation pipeline that runs automated test questions and uses Claude as an LLM judge to score answers on Faithfulness and Answer Relevancy, with scores displayed directly in the UI.
-
-
-> **Tech:**  Python, FastAPI, LlamaIndex, SSE streaming, RAG, Qdrant, Docker, Railway, GitHub CI/CD.  
-> **Role:** Sole developer responsible for end-to-end design and implementation.
-
-<a href="https://github.com/devo002/RAG-doc-chat" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
-<a href="https://exemplary-manifestation-production-dcca.up.railway.app/"
-   target="_blank"
-   class="project-link">
-  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
-  View Live Demo
-</a>
+Languages: Python, JavaScript, TypeScript
+ML / AI: PyTorch, TensorFlow, Scikit-learn, Optuna, TensorBoard
+Computer Vision: OpenCV, Image Processing
+Generative AI: OpenAI, Anthropic, Llama, Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP
+Databases & Vector Stores: PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB
+Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
+Automation: n8n, AI Workflow Orchestration
 
 
+Education
+M.Sc. Artificial Intelligence — Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany (2022 – 2025)
+B.Tech Computer Science — Federal University of Technology Minna, Nigeria (2014 – 2018)
 
-###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
--	Built an AI-powered Bridge Agent in Python that autonomously classifies Microsoft Teams messages, cross-references client ARR via HubSpot CRM, and deduplicates against a Jira backlog — reducing manual ticket creation to a one-click review workflow.
--	Engineered a multi-step agent pipeline using batch prompt design to process 70+ messages in under 4 Claude API calls, streaming real-time progress to the browser via Server-Sent Events.
--	Delivered a full-stack admin UI with Flask and vanilla JavaScript where reviewers inspect AI decisions (CREATE / UPDATE / SKIP) as structured cards and submit approved actions directly to Jira and Microsoft Teams.
+Key Projects {#projects}
+AI Ticket Bridge Agent — Teams → Jira (04/2026)
+Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
+Python Claude Flask Jira API SSE Docker
+  Code
 
+AI-Powered Job Matching Assistant (01/26 – 02/26)
+n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
+n8n OpenAI Pinecone RAG Python IMAP
 
-> **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
-> **Role:** Sole developer responsible for end-to-end design and implementation.
+LLM Log Analyzer on AWS (12/2025 – 01/2026)
+Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
+Python AWS Bedrock Lambda S3 CloudWatch FastAPI
+  Code
 
-<a href="https://github.com/devo002/AI_Ticket_Agent" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+RAG Chatbot with NVIDIA Llama (10/2025 – 11/2025)
+Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
+Python NVIDIA Llama FAISS FastAPI Docker
+  Code
 
+Research Experience {#research-experience}
+Pattern Recognition Lab, FAU (06/2025 – 11/2025)
+Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
+PyTorch GANs Transformers Streamlit
+  Code
 
-### Full-Stack Budget & Expense Tracker *(02/2026 - 03/2026)*
--	Developed and deployed a full-stack personal finance tracker that allows users to record transactions, monitor weekly spending limits, and calculate monthly savings dynamically.
--	Implemented a RESTful backend using Next.js API routes and Prisma ORM to manage transaction creation, deletion, and budget data stored in a PostgreSQL database.
--	Built a responsive dashboard with real-time financial summaries and deployed the application using Vercel with a Neon cloud database, enabling cross-device access including mobile usage.
+FAPS, FAU — Semi-supervised Defect Detection (12/2023 – 12/2024)
+Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
+PyTorch DINOv2-L FixMatch Optuna Weights & Biases
+  Code
 
+Computer Vision Projects, FAU (04/2025 – 09/2025)
+Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
+Python OpenCV ResNet-50 Scikit-learn
 
-> **Tech:** Typescript, Next.js, Prisma Studio, PostgreSQL(Neon), Github, Vercel.
-> **Role:** Sole developer responsible for end-to-end design and implementation.
-
-<a href="https://github.com/devo002/Budget-Tracker" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
-<a href="https://budget-tracker-lac-six.vercel.app/dashboard"
-   target="_blank"
-   class="project-link">
-  <img src="/assets/icons/vercel.svg" alt="Vercel" class="github-icon">
-  View Live Demo
-</a>
-
-### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
--	Designed an end-to-end automated pipeline in n8n that monitors incoming job emails, extracts job descriptions, and processes them for AI-based evaluation.
--	Built a Retrieval-Augmented Generation (RAG) system using OpenAI embeddings and Pinecone vector database to compare job requirements against a candidate’s CV using semantic similarity search.
--	Designed a rule-based + AI agent to classify opportunities into Apply / Maybe / Skip using skill alignment, seniority, and requirement matching.
-
-
-> **Tech:**  n8n, OpenAI (Embeddings + LLMs), Pinecone, Retrieval-Augmented Generation (RAG), Semantic Similarity Search, AI Agents, Python, Email APIs (IMAP/Gmail), Multilingual Processing (DE ↔ EN translation), Rule-based decision logic.
-
-
-
-### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
--	Developed an LLM-powered log analysis service using FastAPI and AWS Bedrock (Claude) to automatically detect error patterns, infer root causes, and generate recommendations.
--	Reduced manual debugging effort by enabling automatic log clustering and failure diagnosis using LLM reasoning.
--	Designed and implemented an event-driven log analysis pipeline using AWS S3 + AWS Lambda, with automated result persistence and CloudWatch-based observability.
-
-
-> **Tech:** Python, AWS Bedrock (Claude), S3, Lambda, CloudWatch, FastAPI, JSON, LLM  
-> **Role:** Sole developer responsible for end-to-end design and implementation.
-
-<a href="https://github.com/devo002/LLM-log-analyzer" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-### Retrieval-Augmented Generation (RAG) Chatbot with Nvidia (10/2025 - 11/2025)
--	Designed and implemented an intelligent RAG chatbot leveraging NVIDIA Llama models integrated with FastAPI and Gradio for interactive document-based conversations. 
--	Engineered a long-term conversational context storage system using a database layer, enabling the chatbot to maintain continuity in discussions over uploaded PDF and HTML documents across sessions. 
--	Containerized the system with Docker to support reliable deployment and scalability.
-
-> **Tech:** Python, NVIDIA Llama, RAG, SQLite, FAISS, Docker, FastAPI
-
-<a href="https://github.com/devo002/RAG-chatbot-nvidia" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-## Research Experience
-### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
--	Spearheaded the integration of a custom Transformer-based encoder into the AFFGANwriting pipeline, replacing the legacy VGG19 architecture to capture richer, high-fidelity writer-style representations.
-- Boosted user-study pick-rates by 40%, demonstrating a significant leap in the perceptual quality and realism of the generated handwriting compared to the baseline model.
-- Enhanced OCR performance by 20% by implementing a teacher-student framework that leveraged a TrOCR benchmark model for auxiliary training alignment.
-
-> **Tech:** PyTorch, GANs, CNNs, Transformer Models, Streamlit, GPU.
-> **Role:** End-to-end design, training, evaluation, to show that modern backbone models improve the realism of a handwriting style.
-
-<a href="https://github.com/devo002/Handwriting_generation" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
--	Selective search object detection. Built selective search end-to-end (Felzenszwalb regions, color/texture/size/fill similarities, hierarchical merging) and trained an SVM on the proposals to detect objects in a balloon dataset.
--	Video face recognition system. Combined MTCNN detection with template-matching tracking, FaceNet embeddings, and from-scratch k-NN and k-means for closed-set identification, open-set recognition, and re-identification.
-
-
-
-> **Tech:** Python, OpenCV, ResNet-50 via ONNX, Scikit-learn, Numpy
-
----
-
-### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
--	Collaborated within a research team to execute systematic data cleaning using Cleanlab Studio, identifying and correcting label noise across thousands of industrial images to establish a high-fidelity data baseline
-- Designed and engineered a Semi-Supervised Learning (SSL) pipeline utilizing the FixMatch algorithm integrated with a DINOv2-L backbone, successfully leveraging unlabeled coil-winding datasets to mitigate data scarcity constraints.
-- Achieved a 90% macro-average F1 score on multi-label defect classification, optimizing training strategy trade-offs to ensure robust generalization across diverse defect categories.. 
-
-> **Tech:** PyTorch, SSL, Hugging face, DINOv2-L, EfficientNetV2-L, FixMatch, MixMatch, Optuna, Tensorboard, Wandb  
-> **Role:** Implemented a semi-supervised FixMatch-based multi-label classification pipeline, improving defect detection performance to 90% macro F1, outperforming the fully supervised baseline (87% macro F1).
-
-<a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-**Tools & Libraries**
+Tools & Libraries
 <div class="skill-grid">
   <img src="/assets/icons/pytorch.svg" alt="Pytorch" />
   <img src="/assets/icons/tensorflow.svg" alt="Tensorflow" />
@@ -231,53 +128,5 @@ author_profile: true   # hide the big name card on the left
   <img src="/assets/icons/langchain.svg" alt="Langchain" />
   <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
----
 
-
-
-**Tech Support & IT Operations**
-
-- Troubleshooting hardware, software, and network issues
-- Linux & Windows system administration
-- User support, incident management, and ticketing systems
-- Network fundamentals (TCP/IP, DNS, DHCP, VPN)
-- Server monitoring, and system diagnostics
-- Software installation, configuration, and updates
-- Remote support tools and end-user assistance
-- Documentation and technical knowledge base creation
-  
----
-
-## Work Experience
-### FAU- Department of Chemistry and Pharmarcy - Erlangen, Germany
-IT HIWI | 06/2023 – 09/2025
-
--	Secured and streamlined network infrastructure (LAN, WAN, VPN, firewalls, routers, switches), improving connectivity, reducing latency by 30%, and enhancing business continuity.
--	Administered Active Directory and Group Policy Objects (GPO), managing  user accounts, enforcing role-based access, and improving compliance with internal security policies.
--	Provided Tier 1–3 technical support to end-users, resolving hardware, software, and network issues within SLA timelines, achieving a 95% user satisfaction rating.
--	Conducted IT audits, compliance checks, and vulnerability assessments, ensuring 100% adherence to internal policies, and other regulatory requirements.
--	Managed IT procurement, asset tracking, and lifecycle management.
--	Coordinated with third-party vendors and service providers for escalated technical issues, maintaining 99% SLA compliance and ensuring uninterrupted business operations. 
--	Implemented network segmentation, VPN access controls, and MFA authentication, significantly improving security posture for remote and hybrid work environments.
-
-
----
-
-### Lifebridge Medical Diagnostics Center, Abuja Nigeria
-IT Officer | 04/2021 – 11/2022
-
--	Delivered hands-on IT support to end users, troubleshooting hardware, software, and network-related issues across Windows and macOS environments.
--	Performed structured incident triage, prioritizing tickets based on business impact and ensuring timely resolution within SLA targets.
--	Supported user onboarding and offboarding processes, including account provisioning, access control, and device setup.
--	Utilized collaboration tools such as Google Workspace and Slack for communication within company in resolving configuration and access issues.
--	Worked with identity and access management systems to manage authentication, permissions, and MFA configurations.
--	Provided System setup, configuration, and troubleshooting support, ensuring secure and optimized device performance.
--	Communicated technical issues in clear, non-technical language to ensure end users understood solutions and preventative steps.
--	Documented recurring issues and created internal knowledge base articles to streamline future troubleshooting.
--	Proactively identified recurring system issues and implemented improvements to reduce incident frequency.
--	Collaborated with cross-functional teams to resolve complex infrastructure and application-related issues
-
----
-
-If you’d like to know more about any of these projects or collaborate, feel free to reach out at  
-📧 **davidmayowaonaiyekan@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122).
+📧 davidmayowaonaiyekan@gmail.com · LinkedIn
