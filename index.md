@@ -38,7 +38,7 @@ author_profile: true   # hide the big name card on the left
 .proj-compact .tech { font-size: 11px; color: #777; }
 </style>
 
-🔴 Live Demos {#demos}
+🔴 Key Projects with Live Demos
 <div class="demo-grid">
   <div class="demo-card">
     <span class="demo-tag">Agentic AI</span>
@@ -81,15 +81,14 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-## Key Projects {#projects}
+## Other Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 - Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
 > **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
 <a href="https://github.com/devo002/AI_Ticket_Agent" 
    target="_blank" 
    class="project-link">
-
-<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -103,19 +102,17 @@ author_profile: true   # hide the big name card on the left
 <a href="https://github.com/devo002/LLM-log-analyzer" 
    target="_blank" 
    class="project-link">
-
-<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
 ### RAG Chatbot with Nvidia (10/2025 - 11/2025)
 - Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
-> **Tech:** Python NVIDIA Llama FAISS FastAPI Docker
+> **Tech:** Python, NVIDIA, Llama, FAISS, FastAPI, Docker
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
    class="project-link">
-
-<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -124,12 +121,11 @@ author_profile: true   # hide the big name card on the left
 ## Research Experience
 ### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
 - Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
-> **Tech:** PyTorch GANs Transformers Streamlit
+> **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
 <a href="https://github.com/devo002/Handwriting_generation" 
    target="_blank" 
    class="project-link">
-
-<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -137,12 +133,11 @@ author_profile: true   # hide the big name card on the left
 
 ### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
 - Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
-> **Tech:** PyTorch DINOv2-L FixMatch Optuna Weights & Biases
+> **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
 <a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
    target="_blank" 
    class="project-link">
-
-<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -186,4 +181,4 @@ Tools & Libraries
 
 ---
 
-📧 davidmayowaonaiyekan@gmail.com · LinkedIn
+📧 davidmayowaonaiyekan@gmail.com
