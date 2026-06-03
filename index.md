@@ -83,8 +83,8 @@ author_profile: true   # hide the big name card on the left
 
 ## Other Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
-- Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
-**Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
+Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
+> **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
 
 <a href="https://github.com/devo002/AI_Ticket_Agent" 
    target="_blank" 
