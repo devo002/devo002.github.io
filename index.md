@@ -2,13 +2,13 @@
 layout: single
 title: ""
 permalink: /
-author_profile: true   # hide the big name card on the left
+author_profile: true   # hide the big name card on the left # grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 ---
 
 <style>
 .demo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   margin: 16px 0 24px;
 }

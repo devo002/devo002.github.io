@@ -8,5 +8,5 @@ main:
     url: /#projects
   - title: "Research Experience"
     url: /#research-experience
-  - title: "Work Experience"
-    url: /#work-experience
+  #- title: "Work Experience"
+  #  url: /#work-experience
