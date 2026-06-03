@@ -1,7 +1,11 @@
+
+---
 layout: single
 title: ""
 permalink: /
-author_profile: true
+author_profile: true   # hide the big name card on the left
+---
+
 <style>
 .demo-grid {
   display: grid;
@@ -60,55 +64,103 @@ author_profile: true
   </div>
 </div>
 
-Technical Skills {#skills}
+---
 
-Languages: Python, JavaScript, TypeScript
-ML / AI: PyTorch, TensorFlow, Scikit-learn, Optuna, TensorBoard
-Computer Vision: OpenCV, Image Processing
-Generative AI: OpenAI, Anthropic, Llama, Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP
-Databases & Vector Stores: PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB
-Cloud & MLOps: AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
-Automation: n8n, AI Workflow Orchestration
+## Technical Skills {#skills}
+
+- Programming Languages: Python, JavaScript, TypeScript
+- ML / AI:  PyTorch, TensorFlow, Scikit-learn, Feature Engineering, Optuna, TensorBoard
+- Computer Vision: OpenCV, Image Processing.
+- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
+- Data & Analytics:  NumPy, Pandas
+- Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
+- Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
+- Automation & Workflows: n8n, AI Workflow Orchestration
+- Software Engineering: FastAPI, REST APIs, Node.js
+- Developer Tools: Git, GitHub, GitLab
+- IDEs/Editors: VS Code, Cursor
+
+---
 
 
-Education
-M.Sc. Artificial Intelligence — Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany (2022 – 2025)
-B.Tech Computer Science — Federal University of Technology Minna, Nigeria (2014 – 2018)
+## Education
+### Master of Science (M.Sc.) in Artificial Intelligence
+**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
+*2022 – 2025*
 
-Key Projects {#projects}
-AI Ticket Bridge Agent — Teams → Jira (04/2026)
-Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
-Python Claude Flask Jira API SSE Docker
-  Code
+### Bachelor of Technology in Computer Science
+**Federal University of Technology Minna**, Nigeria  
+*2014 – 2018*
 
-AI-Powered Job Matching Assistant (01/26 – 02/26)
-n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
-n8n OpenAI Pinecone RAG Python IMAP
+---
 
-LLM Log Analyzer on AWS (12/2025 – 01/2026)
-Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
-Python AWS Bedrock Lambda S3 CloudWatch FastAPI
-  Code
+## Key Projects {#projects}
+###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
+- Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
+> **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
+<a href="https://github.com/devo002/AI_Ticket_Agent" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
 
-RAG Chatbot with NVIDIA Llama (10/2025 – 11/2025)
-Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
-Python NVIDIA Llama FAISS FastAPI Docker
-  Code
+### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
+- n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
+> **Tech:** n8n OpenAI Pinecone RAG Python IMAP
 
-Research Experience {#research-experience}
-Pattern Recognition Lab, FAU (06/2025 – 11/2025)
-Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
-PyTorch GANs Transformers Streamlit
-  Code
+### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
+- Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
+> **Tech:** Python AWS Bedrock Lambda S3 CloudWatch FastAPI
+<a href="https://github.com/devo002/LLM-log-analyzer" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
 
-FAPS, FAU — Semi-supervised Defect Detection (12/2023 – 12/2024)
-Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
-PyTorch DINOv2-L FixMatch Optuna Weights & Biases
-  Code
+### RAG Chatbot with Nvidia (10/2025 - 11/2025)
+- Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
+> **Tech:** Python NVIDIA Llama FAISS FastAPI Docker
+<a href="https://github.com/devo002/RAG-chatbot-nvidia" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
 
-Computer Vision Projects, FAU (04/2025 – 09/2025)
-Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
-Python OpenCV ResNet-50 Scikit-learn
+---
+
+## Research Experience
+### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
+- Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
+> **Tech:** PyTorch GANs Transformers Streamlit
+<a href="https://github.com/devo002/Handwriting_generation" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+---
+
+### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
+- Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
+> **Tech:** PyTorch DINOv2-L FixMatch Optuna Weights & Biases
+<a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+---
+
+### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
+- Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
+> **Tech:** Python OpenCV ResNet-50 Scikit-learn
+
+---
 
 Tools & Libraries
 <div class="skill-grid">
@@ -128,5 +180,7 @@ Tools & Libraries
   <img src="/assets/icons/langchain.svg" alt="Langchain" />
   <img src="/assets/icons/optuna.svg" alt="Optuna" />
 </div>
+
+---
 
 📧 davidmayowaonaiyekan@gmail.com · LinkedIn
