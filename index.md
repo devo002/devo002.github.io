@@ -44,8 +44,8 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <span class="demo-tag">Agentic AI</span>
     <h4>Smart Dispatcher</h4>
     <p>LangGraph agent that triages support tickets with a 6-node self-correction loop. </p>
-    <a class="demo-btn" href="https://smart-dispatcher-agent.onrender.com/" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">Code</a>
+    <a class="demo-btn" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://github.com/devo002/Smart-dispatcher-Agent" target="_blank">Code</a>
   </div>
   <div class="demo-card">
     <span class="demo-tag">RAG</span>
