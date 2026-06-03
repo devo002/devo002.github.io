@@ -43,7 +43,7 @@ author_profile: true   # hide the big name card on the left
   <div class="demo-card">
     <span class="demo-tag">Agentic AI</span>
     <h4>Smart Dispatcher</h4>
-    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop — no re-prompting needed when a fix fails</p>
+    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop. </p>
     <a class="demo-btn" href="https://smart-dispatcher-agent.onrender.com/" target="_blank">▶ Open demo</a>
     <a class="demo-btn" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">Code</a>
   </div>
@@ -57,7 +57,7 @@ author_profile: true   # hide the big name card on the left
   <div class="demo-card">
     <span class="demo-tag">Full-stack</span>
     <h4>Budget Tracker</h4>
-    <p>Personal finance tracker with weekly spending limits, real-time summaries, and mobile support — deployed on Vercel + Neon</p>
+    <p>Finance tracker with weekly spending limits, real-time summaries, </p>
     <a class="demo-btn" href="https://budget-tracker-lac-six.vercel.app/dashboard" target="_blank">▶ Open demo</a>
     <a class="demo-btn" href="https://github.com/devo002/Budget-Tracker" target="_blank">Code</a>
   </div>
@@ -84,7 +84,8 @@ author_profile: true   # hide the big name card on the left
 ## Other Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 - Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
-> **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
+**Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
+
 <a href="https://github.com/devo002/AI_Ticket_Agent" 
    target="_blank" 
    class="project-link">
