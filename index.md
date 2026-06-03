@@ -54,6 +54,14 @@ author_profile: true   # hide the big name card on the left
     <a class="demo-btn" href="https://exemplary-manifestation-production-dcca.up.railway.app/" target="_blank">▶ Open demo</a>
     <a class="demo-btn" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
   </div>
+
+  <div class="demo-card">
+    <span class="demo-tag">Computer Vision</span>
+    <h4>Coil Winding Defect Classifier</h4>
+    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab</p>
+    <a class="demo-btn" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
+  </div>
   <div class="demo-card">
     <span class="demo-tag">Full-stack</span>
     <h4>Budget Tracker</h4>
