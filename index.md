@@ -88,6 +88,39 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 
 ---
 
+## Research Experience
+### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
+Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
+> **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
+
+<a href="https://github.com/devo002/Handwriting_generation" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+---
+
+### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
+Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
+> **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
+
+<a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
+   target="_blank" 
+   class="project-link">
+  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+  View Code
+</a>
+
+---
+
+### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
+Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
+> **Tech:** Python OpenCV ResNet-50 Scikit-learn
+
+---
+
 ## Other Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
@@ -125,39 +158,6 @@ Document-grounded chatbot with persistent conversation history across PDF and HT
   <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
-
----
-
-## Research Experience
-### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
-Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
-> **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
-
-<a href="https://github.com/devo002/Handwriting_generation" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
-Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
-> **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
-
-<a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
-
----
-
-### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
-Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
-> **Tech:** Python OpenCV ResNet-50 Scikit-learn
 
 ---
 
