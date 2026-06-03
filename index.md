@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: ""
@@ -82,18 +81,6 @@ author_profile: true   # hide the big name card on the left
 
 ---
 
-
-## Education
-### Master of Science (M.Sc.) in Artificial Intelligence
-**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
-*2022 – 2025*
-
-### Bachelor of Technology in Computer Science
-**Federal University of Technology Minna**, Nigeria  
-*2014 – 2018*
-
----
-
 ## Key Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 - Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
@@ -101,21 +88,23 @@ author_profile: true   # hide the big name card on the left
 <a href="https://github.com/devo002/AI_Ticket_Agent" 
    target="_blank" 
    class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+
+<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
 ### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
 - n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
-> **Tech:** n8n OpenAI Pinecone RAG Python IMAP
+> **Tech:** n8n, OpenAI, Pinecone, RAG, Python, IMAP
 
 ### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
 - Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
-> **Tech:** Python AWS Bedrock Lambda S3 CloudWatch FastAPI
+> **Tech:** Python, AWS, Bedrock, Lambda, S3, CloudWatch, FastAPI
 <a href="https://github.com/devo002/LLM-log-analyzer" 
    target="_blank" 
    class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+
+<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -125,7 +114,8 @@ author_profile: true   # hide the big name card on the left
 <a href="https://github.com/devo002/RAG-chatbot-nvidia" 
    target="_blank" 
    class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+
+<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -138,7 +128,8 @@ author_profile: true   # hide the big name card on the left
 <a href="https://github.com/devo002/Handwriting_generation" 
    target="_blank" 
    class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+
+<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -150,7 +141,8 @@ author_profile: true   # hide the big name card on the left
 <a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
    target="_blank" 
    class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
+
+<img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
   View Code
 </a>
 
@@ -159,6 +151,17 @@ author_profile: true   # hide the big name card on the left
 ### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
 - Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
 > **Tech:** Python OpenCV ResNet-50 Scikit-learn
+
+---
+
+## Education
+### Master of Science (M.Sc.) in Artificial Intelligence
+**Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
+*2022 – 2025*
+
+### Bachelor of Technology in Computer Science
+**Federal University of Technology Minna**, Nigeria  
+*2014 – 2018*
 
 ---
 
