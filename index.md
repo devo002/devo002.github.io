@@ -38,7 +38,7 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 .proj-compact .tech { font-size: 11px; color: #777; }
 </style>
 
-🔴 Key Projects with Live Demos
+🔴 Key Achievements with Live Demos
 <div class="demo-grid">
   <div class="demo-card">
     <span class="demo-tag">Computer Vision</span>
