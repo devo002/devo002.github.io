@@ -41,6 +41,13 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 🔴 Key Projects with Live Demos
 <div class="demo-grid">
   <div class="demo-card">
+    <span class="demo-tag">Computer Vision</span>
+    <h4>Coil Winding Defect Classifier</h4>
+    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab</p>
+    <a class="demo-btn" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
+    <a class="demo-btn" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
+  </div>
+  <div class="demo-card">
     <span class="demo-tag">Agentic AI</span>
     <h4>Smart Dispatcher</h4>
     <p>LangGraph agent that triages support tickets with a 6-node self-correction loop. </p>
@@ -55,13 +62,6 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <a class="demo-btn" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
   </div>
   <div class="demo-card">
-    <span class="demo-tag">Computer Vision</span>
-    <h4>Coil Winding Defect Classifier</h4>
-    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab</p>
-    <a class="demo-btn" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
-  </div>
-  <div class="demo-card">
     <span class="demo-tag">Full-stack</span>
     <h4>Budget Tracker</h4>
     <p>Finance tracker with weekly spending limits, real-time summaries, </p>
@@ -74,23 +74,20 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 
 ## Technical Skills {#skills}
 
-- Programming Languages: Python, JavaScript, TypeScript
-- ML / AI:  PyTorch, TensorFlow, Scikit-learn, Feature Engineering, Optuna, TensorBoard
-- Computer Vision: OpenCV, Image Processing.
-- Generative AI & Frameworks: OpenAI, Anthropic, Llama,  Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
-- Data & Analytics:  NumPy, Pandas
-- Databases & Vector Databases:  PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
-- Cloud & MLOps:  AWS, Docker, FastAPI, CI/CD (GitHub Actions, GitLab)
-- Automation & Workflows: n8n, AI Workflow Orchestration
-- Software Engineering: FastAPI, REST APIs, Node.js
-- Developer Tools: Git, GitHub, GitLab
-- IDEs/Editors: VS Code, Cursor
+- Languages: Python (Advanced), JavaScript, TypeScript.
+- ML & Deep Learning: PyTorch, TensorFlow, Scikit-learn, Numpy, Pandas.
+- Computer Vision: OpenCV, Image Processing, CNNs, Vision Transformers, OCR, GANs.
+- LLMs & AI Engineering: OpenAI, Anthropic, Llama, Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
+- Databases & Vector Databases: PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
+- MLOps, Cloud & Deployment: AWS, Docker, FastAPI, CI/CD, GitHub Actions.
+- Automation & Workflows: n8n, Make, AI Workflow Orchestration.
 
 ---
 
 ## Research Experience
+### Machine Learning Researcher
 ### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
-Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework.
+Integrated a custom Transformer-based encoder into the AFFGANwriting pipeline, — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework along the TrOCR model.
 > **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
 
 <a href="https://github.com/devo002/Handwriting_generation" 
@@ -103,7 +100,7 @@ Replaced the VGG19 backbone in a handwriting GAN with a Transformer encoder — 
 ---
 
 ### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
-Built a FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
+Designed and Implemented a Semi-supervised learning pipeline using FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
 > **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
 
 <a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
