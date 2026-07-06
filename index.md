@@ -119,7 +119,7 @@ Built selective search object detection end-to-end and a video face recognition 
 
 ---
 
-## Other Projects {#projects}
+## AI Engineering Projects {#projects}
 ###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
 Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
 > **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
