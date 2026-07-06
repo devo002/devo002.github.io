@@ -99,6 +99,7 @@ Integrated a custom Transformer-based encoder into the AFFGANwriting pipeline, â
 
 ---
 
+### Computer vision Researcher
 ### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
 Designed and Implemented a Semi-supervised learning pipeline using FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
 > **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
