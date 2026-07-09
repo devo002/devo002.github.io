@@ -7,16 +7,50 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 
 
 <style>
-  .demo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 16px 0 24px; }
+  .demo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 18px;
+  }
+
+  .demo-tag {
+    align-self: flex-start;
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+    background: #1a1a28;
+    border: 1px solid #2a2a3a;
+    color: #a8bfff;
+    border-radius: 6px;
+    padding: 4px 11px;
+    margin: 4px 0 14px;
+  }
+
+  .demo-card h4 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 10px;
+  }
+
+  .demo-card p {
+    color: #b0b0c2;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0 0 16px;
+    flex-grow: 1;
+  }
+
+  
   .demo-card { background: #10101a; border: 1px solid #22222f; border-radius: 14px; padding: 20px; position: relative; overflow: hidden; display: flex; flex-direction: column; }
   .demo-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
   .demo-card.accent-blue::before   { background: linear-gradient(90deg, #4f7cff, #9b6bff); }
   .demo-card.accent-purple::before { background: linear-gradient(90deg, #9b6bff, #ff6bd6); }
   .demo-card.accent-cyan::before   { background: linear-gradient(90deg, #38bdf8, #4f7cff); }
   .demo-card.accent-green::before  { background: linear-gradient(90deg, #34d399, #38bdf8); }
-  .demo-tag { align-self: flex-start; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; background: #1a1a28; border: 1px solid #2a2a3a; color: #9fb4ff; border-radius: 5px; padding: 3px 9px; margin: 6px 0 12px; }
-  .demo-card h4 { color: #ffffff; font-size: 16px; font-weight: 700; margin: 0 0 10px; }
-  .demo-card p { color: #a8a8ba; font-size: 13px; line-height: 1.55; margin: 0 0 16px; flex-grow: 1; }
+
   .demo-btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
   .demo-btn { font-size: 12px; font-weight: 500; padding: 6px 13px; border-radius: 7px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
   .demo-btn-primary { background: transparent; border: 1px solid #4f7cff; color: #8fa9ff; }
