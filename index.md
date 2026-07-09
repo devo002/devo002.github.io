@@ -386,24 +386,69 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 ---
 
 Tools & Libraries
-<div class="skill-grid">
-  <img src="/assets/icons/pytorch.svg" alt="Pytorch" />
-  <img src="/assets/icons/tensorflow.svg" alt="Tensorflow" />
-  <img src="/assets/icons/opencv.svg" alt="Open CV" />
-  <img src="/assets/icons/jupyter.svg" alt="Jupyter" />
-  <img src="/assets/icons/python.svg" alt="Python" />
-  <img src="/assets/icons/javascript.svg" alt="Javascript" />
-  <img src="/assets/icons/nodedotjs.svg" alt="NodeJS" />
-  <img src="/assets/icons/mongodb.svg" alt="MongoDB" />
-  <img src="/assets/icons/huggingface.svg" alt="Hugging Face" />
-  <img src="/assets/icons/git.svg" alt="Git" />
-  <img src="/assets/icons/github.svg" alt="Github" />
-  <img src="/assets/icons/numpy.svg" alt="Numpy" />
-  <img src="/assets/icons/docker.svg" alt="Docker" />
-  <img src="/assets/icons/langchain.svg" alt="Langchain" />
-  <img src="/assets/icons/optuna.svg" alt="Optuna" />
+
+<style>
+  .tools-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0; }
+  .tools-chip {
+    width: 56px; height: 56px;
+    display: flex; align-items: center; justify-content: center;
+    background: #10101a; border: 1px solid #22222f; border-radius: 12px;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .tools-chip:hover { border-color: #4f7cff; transform: translateY(-2px); }
+  .tools-chip img { width: 26px; height: 26px; filter: invert(1) brightness(1.7); opacity: 0.85; }
+  .tools-chip:hover img { opacity: 1; }
+</style>
+
+<div class="tools-grid">
+  <div class="tools-chip"><img src="/assets/icons/pytorch.svg" alt="Pytorch" /></div>
+  <div class="tools-chip"><img src="/assets/icons/tensorflow.svg" alt="Tensorflow" /></div>
+  <div class="tools-chip"><img src="/assets/icons/opencv.svg" alt="Open CV" /></div>
+  <div class="tools-chip"><img src="/assets/icons/jupyter.svg" alt="Jupyter" /></div>
+  <div class="tools-chip"><img src="/assets/icons/python.svg" alt="Python" /></div>
+  <div class="tools-chip"><img src="/assets/icons/javascript.svg" alt="Javascript" /></div>
+  <div class="tools-chip"><img src="/assets/icons/nodedotjs.svg" alt="NodeJS" /></div>
+  <div class="tools-chip"><img src="/assets/icons/mongodb.svg" alt="MongoDB" /></div>
+  <div class="tools-chip"><img src="/assets/icons/huggingface.svg" alt="Hugging Face" /></div>
+  <div class="tools-chip"><img src="/assets/icons/git.svg" alt="Git" /></div>
+  <div class="tools-chip"><img src="/assets/icons/github.svg" alt="Github" /></div>
+  <div class="tools-chip"><img src="/assets/icons/numpy.svg" alt="Numpy" /></div>
+  <div class="tools-chip"><img src="/assets/icons/docker.svg" alt="Docker" /></div>
+  <div class="tools-chip"><img src="/assets/icons/langchain.svg" alt="Langchain" /></div>
+  <div class="tools-chip"><img src="/assets/icons/optuna.svg" alt="Optuna" /></div>
 </div>
-
 ---
+## Contact
 
-📧 davidmayowaonaiyekan@gmail.com
+<style>
+  .contact-wrap { margin: 24px 0; }
+  .contact-wrap h2 { color: #ffffff; font-size: 24px; font-weight: 700; margin: 0 0 10px; }
+  .contact-blurb { color: #a8a8ba; font-size: 14px; line-height: 1.6; margin: 0 0 20px; }
+  .contact-card {
+    display: inline-flex; align-items: center; gap: 14px;
+    background: #10101a; border: 1px solid #22222f; border-radius: 12px;
+    padding: 14px 20px; text-decoration: none; transition: border-color 0.15s ease;
+  }
+  .contact-card:hover { border-color: #4f7cff; }
+  .contact-icon {
+    width: 36px; height: 36px; border-radius: 8px; background: #2a1f3d;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .contact-icon svg { width: 17px; height: 17px; fill: #c9a8ff; }
+  .contact-label { color: #8a8aa0; font-size: 12px; margin: 0 0 2px; }
+  .contact-value { color: #f0f0f5; font-size: 14px; font-weight: 600; }
+</style>
+
+<div class="contact-wrap">
+  <p class="contact-blurb">I'm open to AI/ML engineering, computer vision, and applied GenAI roles — reach out anytime.</p>
+
+  <a class="contact-card" href="mailto:davidmayowaonaiyekan@gmail.com">
+    <div class="contact-icon">
+      <svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-7.4 5.55a1 1 0 0 1-1.2 0L4 8.24V18h16V8.24z"/></svg>
+    </div>
+    <div>
+      <div class="contact-label">Email</div>
+      <div class="contact-value">davidmayowaonaiyekan@gmail.com</div>
+    </div>
+  </a>
+</div>
