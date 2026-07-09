@@ -72,90 +72,269 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 
 ---
 
+
 ## Technical Skills {#skills}
 
-- Languages: Python (Advanced), JavaScript, TypeScript.
-- ML & Deep Learning: PyTorch, TensorFlow, Scikit-learn, Numpy, Pandas.
-- Computer Vision: OpenCV, Image Processing, CNNs, Vision Transformers, OCR, GANs.
-- LLMs & AI Engineering: OpenAI, Anthropic, Llama, Hugging Face, LangChain, LangGraph, LlamaIndex, RAG, Prompt Engineering, MCP.
-- Databases & Vector Databases: PostgreSQL, MySQL, MongoDB, Qdrant, Pinecone, ChromaDB.
-- MLOps, Cloud & Deployment: AWS, Docker, FastAPI, CI/CD, GitHub Actions.
-- Automation & Workflows: n8n, Make, AI Workflow Orchestration.
+<style>
+  .skills-dark { max-width: 900px; margin: 24px 0; }
+  .skills-category { margin: 0 0 26px; }
+  .skills-category h4 { color: #ffffff; font-size: 16px; font-weight: 600; margin: 0 0 12px; }
+  .skill-pill-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .skill-pill {
+    display: inline-block; background: #15151f; border: 1px solid #2a2a3a;
+    color: #d6d6e0; font-size: 13px; padding: 7px 16px; border-radius: 999px;
+    line-height: 1.2; white-space: nowrap;
+  }
+</style>
+
+<div class="skills-dark">
+  <div class="skills-category">
+    <h4>Programming Languages</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">Python</span>
+      <span class="skill-pill">JavaScript</span>
+      <span class="skill-pill">TypeScript</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>ML &amp; Deep Learning</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">PyTorch</span>
+      <span class="skill-pill">TensorFlow</span>
+      <span class="skill-pill">Scikit-learn</span>
+      <span class="skill-pill">NumPy</span>
+      <span class="skill-pill">Pandas</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>Computer Vision</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">OpenCV</span>
+      <span class="skill-pill">Image Processing</span>
+      <span class="skill-pill">CNNs</span>
+      <span class="skill-pill">Vision Transformers</span>
+      <span class="skill-pill">OCR</span>
+      <span class="skill-pill">GANs</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>LLMs &amp; AI Engineering</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">OpenAI</span>
+      <span class="skill-pill">Anthropic</span>
+      <span class="skill-pill">Llama</span>
+      <span class="skill-pill">Hugging Face</span>
+      <span class="skill-pill">LangChain</span>
+      <span class="skill-pill">LangGraph</span>
+      <span class="skill-pill">LlamaIndex</span>
+      <span class="skill-pill">RAG</span>
+      <span class="skill-pill">Prompt Engineering</span>
+      <span class="skill-pill">MCP</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>Databases &amp; Vector Databases</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">PostgreSQL</span>
+      <span class="skill-pill">MySQL</span>
+      <span class="skill-pill">MongoDB</span>
+      <span class="skill-pill">Qdrant</span>
+      <span class="skill-pill">Pinecone</span>
+      <span class="skill-pill">ChromaDB</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>MLOps, Cloud &amp; Deployment</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">AWS</span>
+      <span class="skill-pill">Docker</span>
+      <span class="skill-pill">FastAPI</span>
+      <span class="skill-pill">CI/CD</span>
+      <span class="skill-pill">GitHub Actions</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>Automation &amp; Workflows</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">n8n</span>
+      <span class="skill-pill">Make</span>
+      <span class="skill-pill">AI Workflow Orchestration</span>
+    </div>
+  </div>
+</div>
+
 
 ---
 
 ## Research Experience
-### Machine Learning Researcher
-### Pattern Recognition Lab, FAU (06/2025 - 11/2025):
-Integrated a custom Transformer-based encoder into the AFFGANwriting pipeline, — boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework along the TrOCR model.
-> **Tech:** PyTorch, GANs, TrOCR, Streamlit, CUDA
 
-<a href="https://github.com/devo002/Handwriting_generation" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+<style>
+  .research-timeline { position: relative; margin: 20px 0; }
+  .research-item { display: grid; grid-template-columns: 150px 1fr; column-gap: 24px; position: relative; padding-bottom: 30px; }
+  .research-item:last-child { padding-bottom: 0; }
+  .research-item:not(:last-child)::before {
+    content: ""; position: absolute; top: 28px; bottom: -30px; left: 162px; border-left: 1px dashed #33333f;
+  }
+  .research-date { color: #8a8aa0; font-size: 13px; padding-top: 20px; text-align: right; }
+  .research-card { background: #10101a; border: 1px solid #22222f; border-radius: 14px; padding: 22px 24px; }
+  .research-card h4 { color: #ffffff; font-size: 17px; font-weight: 700; margin: 0 0 4px; }
+  .research-card .research-org { color: #8a8aa0; font-size: 13px; margin: 0 0 14px; }
+  .research-card ul { margin: 0 0 16px; padding-left: 18px; color: #b5b5c8; font-size: 14px; line-height: 1.65; }
+  .research-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .research-tag { background: #15151f; border: 1px solid #2a2a3a; color: #d6d6e0; font-size: 12px; padding: 5px 12px; border-radius: 999px; }
+  .research-link { font-size: 13px; color: #8fa9ff; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .research-link:hover { text-decoration: underline; }
+</style>
 
----
+<div class="research-timeline">
 
-### Computer vision Researcher
-### Institute for Factory Automation and Production Systems (FAPS) (12/2023 - 12/2024):
-Designed and Implemented a Semi-supervised learning pipeline using FixMatch + DINOv2-L SSL pipeline on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).
-> **Tech:** PyTorch, DINOv2-L, FixMatch, Optuna, Tensorboard
+  <div class="research-item">
+    <div class="research-date">Jun 2025 — Nov 2025</div>
+    <div class="research-card">
+      <h4>Machine Learning Researcher</h4>
+      <p class="research-org">Pattern Recognition Lab, FAU</p>
+      <ul>
+        <li>Integrated a custom Transformer-based encoder into the AFFGANwriting pipeline, boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework along the TrOCR model.</li>
+      </ul>
+      <div class="research-tags">
+        <span class="research-tag">PyTorch</span>
+        <span class="research-tag">GANs</span>
+        <span class="research-tag">TrOCR</span>
+        <span class="research-tag">Streamlit</span>
+        <span class="research-tag">CUDA</span>
+      </div>
+      <a class="research-link" href="https://github.com/devo002/Handwriting_generation" target="_blank">View Code →</a>
+    </div>
+  </div>
 
-<a href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+  <div class="research-item">
+    <div class="research-date">Dec 2023 — Dec 2024</div>
+    <div class="research-card">
+      <h4>Computer Vision Researcher</h4>
+      <p class="research-org">Institute for Factory Automation and Production Systems (FAPS)</p>
+      <ul>
+        <li>Designed and implemented a semi-supervised learning pipeline using FixMatch + DINOv2-L SSL on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).</li>
+      </ul>
+      <div class="research-tags">
+        <span class="research-tag">PyTorch</span>
+        <span class="research-tag">DINOv2-L</span>
+        <span class="research-tag">FixMatch</span>
+        <span class="research-tag">Optuna</span>
+        <span class="research-tag">Tensorboard</span>
+      </div>
+      <a class="research-link" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">View Code →</a>
+    </div>
+  </div>
 
----
+  <div class="research-item">
+    <div class="research-date">Apr 2025 — Sep 2025</div>
+    <div class="research-card">
+      <h4>Computer Vision Project</h4>
+      <p class="research-org">Pattern Recognition Lab, FAU</p>
+      <ul>
+        <li>Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.</li>
+      </ul>
+      <div class="research-tags">
+        <span class="research-tag">Python</span>
+        <span class="research-tag">OpenCV</span>
+        <span class="research-tag">ResNet-50</span>
+        <span class="research-tag">Scikit-learn</span>
+      </div>
+    </div>
+  </div>
 
-### Computer Vision Project,  Pattern Recognition Lab, FAU (04/2025 - 09/2025):
-Built selective search object detection end-to-end and a video face recognition system combining MTCNN, FaceNet embeddings, and from-scratch k-NN / k-means.
-> **Tech:** Python OpenCV ResNet-50 Scikit-learn
+</div>
 
 ---
 
 ## AI Engineering Projects {#projects}
-###  AI Ticket Bridge Agent — Teams to Jira Automation *(04/2026)*
-Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.
-> **Tech:** Python, Flask, Javascript, Claude, Jira REST API, Docker, Git.
 
-<a href="https://github.com/devo002/AI_Ticket_Agent" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+<style>
+  .ai-proj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 20px 0; }
+  .ai-proj-card { background: #10101a; border: 1px solid #22222f; border-radius: 14px; padding: 22px; position: relative; overflow: hidden; }
+  .ai-proj-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+  .ai-proj-card.accent-blue::before   { background: linear-gradient(90deg, #4f7cff, #9b6bff); }
+  .ai-proj-card.accent-purple::before { background: linear-gradient(90deg, #9b6bff, #ff6bd6); }
+  .ai-proj-card.accent-cyan::before   { background: linear-gradient(90deg, #38bdf8, #4f7cff); }
+  .ai-proj-card h4 { color: #ffffff; font-size: 18px; font-weight: 700; margin: 6px 0 6px; }
+  .ai-proj-card .ai-proj-date { color: #7a7a90; font-size: 12px; margin: 0 0 12px; }
+  .ai-proj-card p { color: #a8a8ba; font-size: 14px; line-height: 1.55; margin: 0 0 18px; }
+  .ai-proj-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .ai-proj-tag { background: #15151f; border: 1px solid #2a2a3a; color: #d6d6e0; font-size: 12px; padding: 5px 12px; border-radius: 999px; }
+  .ai-proj-link { font-size: 13px; color: #8fa9ff; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .ai-proj-link:hover { text-decoration: underline; }
+</style>
 
-### AI-Powered Job Matching & Application Assistant *(01/26 – 02/26)* 
-n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.
-> **Tech:** n8n, OpenAI, Pinecone, RAG, Python, IMAP
+<div class="ai-proj-grid">
 
-### Log Analysis System using LLMs on AWS *(12/2025 - 01/2026)*
-Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.
-> **Tech:** Python, AWS, Bedrock, Lambda, S3, CloudWatch, FastAPI
+  <div class="ai-proj-card accent-blue">
+    <h4>AI Ticket Bridge Agent</h4>
+    <p class="ai-proj-date">Teams → Jira Automation · 04/2026</p>
+    <p>Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">Flask</span>
+      <span class="ai-proj-tag">JavaScript</span>
+      <span class="ai-proj-tag">Claude</span>
+      <span class="ai-proj-tag">Jira REST API</span>
+      <span class="ai-proj-tag">Docker</span>
+    </div>
+    <a class="ai-proj-link" href="https://github.com/devo002/AI_Ticket_Agent" target="_blank">View Code →</a>
+  </div>
 
-<a href="https://github.com/devo002/LLM-log-analyzer" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+  <div class="ai-proj-card accent-purple">
+    <h4>AI-Powered Job Matching &amp; Application Assistant</h4>
+    <p class="ai-proj-date">01/2026 – 02/2026</p>
+    <p>n8n pipeline that monitors job emails, embeds descriptions, and scores them against a CV using Pinecone semantic search — classifying each as Apply / Maybe / Skip.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">n8n</span>
+      <span class="ai-proj-tag">OpenAI</span>
+      <span class="ai-proj-tag">Pinecone</span>
+      <span class="ai-proj-tag">RAG</span>
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">IMAP</span>
+    </div>
+  </div>
 
-### RAG Chatbot with Nvidia (10/2025 - 11/2025)
-Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.
-> **Tech:** Python, NVIDIA, Llama, FAISS, FastAPI, Docker
+  <div class="ai-proj-card accent-cyan">
+    <h4>Log Analysis System using LLMs on AWS</h4>
+    <p class="ai-proj-date">12/2025 – 01/2026</p>
+    <p>Event-driven pipeline on AWS Bedrock + Lambda that auto-clusters logs, infers root causes, and persists results — replacing manual debugging.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">AWS</span>
+      <span class="ai-proj-tag">Bedrock</span>
+      <span class="ai-proj-tag">Lambda</span>
+      <span class="ai-proj-tag">S3</span>
+      <span class="ai-proj-tag">CloudWatch</span>
+      <span class="ai-proj-tag">FastAPI</span>
+    </div>
+    <a class="ai-proj-link" href="https://github.com/devo002/LLM-log-analyzer" target="_blank">View Code →</a>
+  </div>
 
-<a href="https://github.com/devo002/RAG-chatbot-nvidia" 
-   target="_blank" 
-   class="project-link">
-  <img src="/assets/icons/github.svg" alt="GitHub" class="github-icon">
-  View Code
-</a>
+  <div class="ai-proj-card accent-blue">
+    <h4>RAG Chatbot with Nvidia</h4>
+    <p class="ai-proj-date">10/2025 – 11/2025</p>
+    <p>Document-grounded chatbot with persistent conversation history across PDF and HTML uploads, containerised with Docker.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">NVIDIA</span>
+      <span class="ai-proj-tag">Llama</span>
+      <span class="ai-proj-tag">FAISS</span>
+      <span class="ai-proj-tag">FastAPI</span>
+      <span class="ai-proj-tag">Docker</span>
+    </div>
+    <a class="ai-proj-link" href="https://github.com/devo002/RAG-chatbot-nvidia" target="_blank">View Code →</a>
+  </div>
+
+</div>
+
 
 ---
 
