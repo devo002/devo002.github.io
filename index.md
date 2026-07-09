@@ -5,70 +5,72 @@ permalink: /
 author_profile: true   # hide the big name card on the left # grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 ---
 
+
 <style>
-.demo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin: 16px 0 24px;
-}
-.demo-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 14px 16px;
-  background: #fafafa;
-}
-.demo-card h4 { margin: 0 0 4px; font-size: 15px; }
-.demo-card p { margin: 0 0 10px; font-size: 13px; color: #555; line-height: 1.4; }
-.demo-tag { font-size: 11px; background: #e8f0fe; color: #1a56db; border-radius: 4px; padding: 2px 7px; display: inline-block; margin-bottom: 8px; }
-.demo-btn {
-  display: inline-block;
-  font-size: 12px;
-  padding: 5px 12px;
-  border: 1px solid #1a56db;
-  border-radius: 5px;
-  color: #1a56db;
-  text-decoration: none;
-  margin-right: 6px;
-}
-.demo-btn:hover { background: #e8f0fe; }
-.proj-compact { border-left: 3px solid #e0e0e0; padding: 6px 0 6px 14px; margin: 12px 0; }
-.proj-compact h3 { margin: 0 0 4px; font-size: 15px; }
-.proj-compact p { margin: 0 0 6px; font-size: 13px; color: #444; }
-.proj-compact .tech { font-size: 11px; color: #777; }
+  .demo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 16px 0 24px; }
+  .demo-card { background: #10101a; border: 1px solid #22222f; border-radius: 14px; padding: 20px; position: relative; overflow: hidden; display: flex; flex-direction: column; }
+  .demo-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+  .demo-card.accent-blue::before   { background: linear-gradient(90deg, #4f7cff, #9b6bff); }
+  .demo-card.accent-purple::before { background: linear-gradient(90deg, #9b6bff, #ff6bd6); }
+  .demo-card.accent-cyan::before   { background: linear-gradient(90deg, #38bdf8, #4f7cff); }
+  .demo-card.accent-green::before  { background: linear-gradient(90deg, #34d399, #38bdf8); }
+  .demo-tag { align-self: flex-start; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; background: #1a1a28; border: 1px solid #2a2a3a; color: #9fb4ff; border-radius: 5px; padding: 3px 9px; margin: 6px 0 12px; }
+  .demo-card h4 { color: #ffffff; font-size: 16px; font-weight: 700; margin: 0 0 10px; }
+  .demo-card p { color: #a8a8ba; font-size: 13px; line-height: 1.55; margin: 0 0 16px; flex-grow: 1; }
+  .demo-btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .demo-btn { font-size: 12px; font-weight: 500; padding: 6px 13px; border-radius: 7px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
+  .demo-btn-primary { background: transparent; border: 1px solid #4f7cff; color: #8fa9ff; }
+  .demo-btn-primary:hover { background: rgba(79, 124, 255, 0.12); }
+  .demo-btn-secondary { background: transparent; border: 1px solid #2a2a3a; color: #b5b5c8; }
+  .demo-btn-secondary:hover { background: #1a1a28; }
+  @media (max-width: 900px) { .demo-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .demo-grid { grid-template-columns: 1fr; } }
 </style>
 
 🔴 Key Achievements with Live Demos
+
 <div class="demo-grid">
-  <div class="demo-card">
+  <div class="demo-card accent-blue">
     <span class="demo-tag">Computer Vision</span>
     <h4>Coil Winding Defect Classifier</h4>
-    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab</p>
-    <a class="demo-btn" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
+    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab.</p>
+    <div class="demo-btn-row">
+      <a class="demo-btn demo-btn-primary" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
+    </div>
   </div>
-  <div class="demo-card">
+
+  <div class="demo-card accent-purple">
     <span class="demo-tag">Agentic AI</span>
     <h4>Smart Dispatcher</h4>
-    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop. </p>
-    <a class="demo-btn" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://github.com/devo002/Smart-dispatcher-Agent" target="_blank">Code</a>
+    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop.</p>
+    <div class="demo-btn-row">
+      <a class="demo-btn demo-btn-primary" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Smart-dispatcher-Agent" target="_blank">Code</a>
+    </div>
   </div>
-  <div class="demo-card">
+
+  <div class="demo-card accent-cyan">
     <span class="demo-tag">RAG</span>
     <h4>RAG Doc Chat</h4>
-    <p>Upload PDFs and chat with them — streaming answers with inline source citations and an automated RAGAS eval pipeline</p>
-    <a class="demo-btn" href="https://exemplary-manifestation-production-dcca.up.railway.app/" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
+    <p>Upload PDFs and chat with them — streaming answers with inline source citations and an automated RAGAS eval pipeline.</p>
+    <div class="demo-btn-row">
+      <a class="demo-btn demo-btn-primary" href="https://exemplary-manifestation-production-dcca.up.railway.app/" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
+    </div>
   </div>
-  <div class="demo-card">
+
+  <div class="demo-card accent-green">
     <span class="demo-tag">Full-stack</span>
     <h4>Budget Tracker</h4>
-    <p>Finance tracker with weekly spending limits, real-time summaries, </p>
-    <a class="demo-btn" href="https://budget-tracker-lac-six.vercel.app/dashboard" target="_blank">▶ Open demo</a>
-    <a class="demo-btn" href="https://github.com/devo002/Budget-Tracker" target="_blank">Code</a>
+    <p>Finance tracker with weekly spending limits, real-time summaries, and category breakdowns.</p>
+    <div class="demo-btn-row">
+      <a class="demo-btn demo-btn-primary" href="https://budget-tracker-lac-six.vercel.app/dashboard" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Budget-Tracker" target="_blank">Code</a>
+    </div>
   </div>
 </div>
+
 
 ---
 
