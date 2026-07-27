@@ -133,6 +133,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/david-mayowa-onaiyekan-01b436122"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "https://docs.google.com/document/d/1gkzXZV_LNUXA2y6F7tumLSDkROsaJphthLir2yW8zlI/export?format=pdf"
 
 # Site Footer
 footer:
