@@ -8,5 +8,8 @@ main:
     url: /#projects
   - title: "Research Experience"
     url: /#research-experience
+  - title: "Resume"
+    url: "https://docs.google.com/document/d/1gkzXZV_LNUXA2y6F7tumLSDkROsaJphthLir2yW8zlI/export?format=pdf"
+    target: _blank
   #- title: "Work Experience"
   #  url: /#work-experience
