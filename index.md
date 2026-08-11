@@ -99,7 +99,7 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <h4>Budget Tracker</h4>
     <p>Finance tracker with weekly spending limits, real-time summaries, and category breakdowns.</p>
     <div class="demo-btn-row">
-      <a class="demo-btn demo-btn-primary" href="https://github.com/devo002/Budget-Tracker/blob/main/assets/Animation.gif" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/Budget-Tracker/main/assets/Animation.gif" target="_blank">▶ Open demo</a>
       <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Budget-Tracker" target="_blank">Code</a>
     </div>
   </div>
