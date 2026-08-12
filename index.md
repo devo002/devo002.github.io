@@ -89,7 +89,7 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <h4>RAG Doc Chat</h4>
     <p>Upload PDFs and chat with them — streaming answers with inline source citations and an automated RAGAS eval pipeline.</p>
     <div class="demo-btn-row">
-      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/RAG-doc-chat/blob/main/asset/RAG.gif" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/RAG-doc-chat/main/asset/RAG.gif" target="_blank">▶ Open demo</a>
       <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
     </div>
   </div>
