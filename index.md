@@ -69,7 +69,7 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <h4>Coil Winding Defect Classifier</h4>
     <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab.</p>
     <div class="demo-btn-row">
-      <a class="demo-btn demo-btn-primary" href="http://98.89.229.163:8000/" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/devo002.github.io/master/assets/objectdetect.gif" target="_blank">▶ Open demo</a>
       <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
     </div>
   </div>
