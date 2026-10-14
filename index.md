@@ -57,27 +57,29 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
   .demo-btn-primary:hover { background: rgba(79, 124, 255, 0.12); }
   .demo-btn-secondary { background: transparent; border: 1px solid #2a2a3a; color: #b5b5c8; }
   .demo-btn-secondary:hover { background: #1a1a28; }
+  .intro-line { color: #b0b0c2; font-size: 16px; line-height: 1.6; margin: 0 0 24px; }
   @media (max-width: 900px) { .demo-grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 560px) { .demo-grid { grid-template-columns: 1fr; } }
 </style>
 
+<p class="intro-line">AI Engineer (M.Sc. Artificial Intelligence) focused on making LLM systems cheaper without making the answers worse.</p>
+
 🔴 Key Achievements with Live Demos
 
 <div class="demo-grid">
-  <div class="demo-card accent-blue">
-    <span class="demo-tag">Computer Vision</span>
-    <h4>Coil Winding Defect Classifier</h4>
-    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab.</p>
+  <div class="demo-card accent-purple">
+    <span class="demo-tag">LLM Fine-tuning</span>
+    <h4>Small LLM for Ticket Triage</h4>
+    <p>QLoRA fine-tuned Qwen3-4B for German/English ticket triage. Benchmarked on 25 real tickets against Claude Sonnet 4.6: core accuracy up 20% at ~17x lower cost ($0.29 vs $5.11 per 1,000 tickets).</p>
     <div class="demo-btn-row">
-      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/devo002.github.io/master/assets/objectdetect.gif" target="_blank">▶ Open demo</a>
-      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
+      <a class="demo-btn demo-btn-secondary" href="YOUR_QWEN_GITHUB_LINK" target="_blank">Code</a>
     </div>
   </div>
 
-  <div class="demo-card accent-purple">
+  <div class="demo-card accent-blue">
     <span class="demo-tag">Agentic AI</span>
     <h4>Smart Dispatcher</h4>
-    <p>LangGraph agent that triages support tickets with a 6-node self-correction loop.</p>
+    <p>LangGraph agent that triages support tickets and drafts dispatch plans, with human-in-the-loop approval, deterministic guardrails, FastMCP tools, and a self-correction loop.</p>
     <div class="demo-btn-row">
       <a class="demo-btn demo-btn-primary" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">▶ Open demo</a>
       <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Smart-dispatcher-Agent" target="_blank">Code</a>
@@ -87,10 +89,20 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
   <div class="demo-card accent-cyan">
     <span class="demo-tag">RAG</span>
     <h4>RAG Doc Chat</h4>
-    <p>Upload PDFs and chat with them — streaming answers with inline source citations and an automated RAGAS eval pipeline.</p>
+    <p>Multimodal RAG over uploaded PDFs: hybrid BGE + BM25 retrieval with rank fusion and reranking, streaming answers with page-level citations, and live eval metrics in the UI.</p>
     <div class="demo-btn-row">
       <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/RAG-doc-chat/main/asset/RAG.gif" target="_blank">▶ Open demo</a>
       <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/RAG-doc-chat" target="_blank">Code</a>
+    </div>
+  </div>
+
+  <div class="demo-card accent-blue">
+    <span class="demo-tag">Computer Vision</span>
+    <h4>Coil Winding Defect Classifier</h4>
+    <p>Sample coil-winding images run through a trained multi-label classifier for defect detection — a deployment snippet from the full research project at FAPS Lab.</p>
+    <div class="demo-btn-row">
+      <a class="demo-btn demo-btn-primary" href="https://raw.githubusercontent.com/devo002/devo002.github.io/master/assets/objectdetect.gif" target="_blank">▶ Open demo</a>
+      <a class="demo-btn demo-btn-secondary" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">Code</a>
     </div>
   </div>
 
@@ -127,7 +139,7 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
   <div class="skills-category">
     <h4>Programming Languages</h4>
     <div class="skill-pill-row">
-      <span class="skill-pill">Python</span>
+      <span class="skill-pill">Python (Advanced)</span>
       <span class="skill-pill">JavaScript</span>
       <span class="skill-pill">TypeScript</span>
     </div>
@@ -161,14 +173,31 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
     <div class="skill-pill-row">
       <span class="skill-pill">OpenAI</span>
       <span class="skill-pill">Anthropic</span>
+      <span class="skill-pill">Gemini</span>
       <span class="skill-pill">Llama</span>
       <span class="skill-pill">Hugging Face</span>
       <span class="skill-pill">LangChain</span>
       <span class="skill-pill">LangGraph</span>
       <span class="skill-pill">LlamaIndex</span>
+      <span class="skill-pill">CrewAI</span>
       <span class="skill-pill">RAG</span>
+      <span class="skill-pill">QLoRA Fine-tuning</span>
+      <span class="skill-pill">Tool Calling</span>
+      <span class="skill-pill">MCP (FastMCP)</span>
+      <span class="skill-pill">Structured Outputs (Pydantic)</span>
       <span class="skill-pill">Prompt Engineering</span>
-      <span class="skill-pill">MCP</span>
+    </div>
+  </div>
+
+  <div class="skills-category">
+    <h4>Web &amp; Full-Stack Development</h4>
+    <div class="skill-pill-row">
+      <span class="skill-pill">React</span>
+      <span class="skill-pill">Next.js</span>
+      <span class="skill-pill">Node.js</span>
+      <span class="skill-pill">REST APIs</span>
+      <span class="skill-pill">Prisma ORM</span>
+      <span class="skill-pill">Tailwind CSS</span>
     </div>
   </div>
 
@@ -190,6 +219,9 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
       <span class="skill-pill">AWS</span>
       <span class="skill-pill">Docker</span>
       <span class="skill-pill">FastAPI</span>
+      <span class="skill-pill">vLLM</span>
+      <span class="skill-pill">Weights &amp; Biases</span>
+      <span class="skill-pill">LangSmith</span>
       <span class="skill-pill">CI/CD</span>
       <span class="skill-pill">GitHub Actions</span>
     </div>
@@ -231,40 +263,26 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 <div class="research-timeline">
 
   <div class="research-item">
-    <div class="research-date">Jun 2025 — Nov 2025</div>
+    <div class="research-date">Jun 2025 — Jan 2026</div>
     <div class="research-card">
       <h4>Machine Learning Researcher</h4>
       <p class="research-org">Pattern Recognition Lab, FAU</p>
       <ul>
-        <li>Integrated a custom Transformer-based encoder into the AFFGANwriting pipeline, boosting perceptual pick-rates by 40% and OCR accuracy by 20% via a teacher-student alignment framework along the TrOCR model.</li>
+        <li>Fine-tuned and evaluated alternative backbone architectures for the AFFGAN handwriting style encoder to better capture writer-specific features, benchmarking against the original baseline.</li>
+        <li>Extended the system beyond word-level synthesis to line-level handwriting generation, adapting an existing line-generation architecture to support full-sentence output.</li>
+        <li>Deployed the pipeline as a web application where users select a writing style, enter custom text, and instantly generate a handwriting image.</li>
+        <li>Integrated TrOCR into a teacher–student distillation framework to evaluate and improve readability of generated handwriting, improving OCR accuracy by 20% over the baseline.</li>
       </ul>
       <div class="research-tags">
         <span class="research-tag">PyTorch</span>
         <span class="research-tag">GANs</span>
+        <span class="research-tag">CNN</span>
+        <span class="research-tag">ViT</span>
         <span class="research-tag">TrOCR</span>
         <span class="research-tag">Streamlit</span>
         <span class="research-tag">CUDA</span>
       </div>
       <a class="research-link" href="https://github.com/devo002/Handwriting_generation" target="_blank">View Code →</a>
-    </div>
-  </div>
-
-  <div class="research-item">
-    <div class="research-date">Dec 2023 — Dec 2024</div>
-    <div class="research-card">
-      <h4>Computer Vision Researcher</h4>
-      <p class="research-org">Institute for Factory Automation and Production Systems (FAPS)</p>
-      <ul>
-        <li>Designed and implemented a semi-supervised learning pipeline using FixMatch + DINOv2-L SSL on unlabelled coil-winding images, reaching 90% macro F1 on multi-label defect classification (vs. 87% supervised baseline).</li>
-      </ul>
-      <div class="research-tags">
-        <span class="research-tag">PyTorch</span>
-        <span class="research-tag">DINOv2-L</span>
-        <span class="research-tag">FixMatch</span>
-        <span class="research-tag">Optuna</span>
-        <span class="research-tag">Tensorboard</span>
-      </div>
-      <a class="research-link" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">View Code →</a>
     </div>
   </div>
 
@@ -282,6 +300,31 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
         <span class="research-tag">ResNet-50</span>
         <span class="research-tag">Scikit-learn</span>
       </div>
+    </div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-date">Dec 2023 — Jan 2025</div>
+    <div class="research-card">
+      <h4>Computer Vision Researcher</h4>
+      <p class="research-org">Institute for Factory Automation and Production Systems (FAPS)</p>
+      <ul>
+        <li>Collaborated in a research team on systematic data cleaning of thousands of industrial coil-winding images: manually corrected label noise on a representative subset, then used Cleanlab Studio's autofix to propagate corrections across the rest, establishing a high-fidelity baseline for training.</li>
+        <li>Trained and evaluated fully-supervised baselines (DINOv2-L and EfficientNetV2-S) to set reference macro-F1, benchmarking against SSL (FixMatch / MixMatch) gains across four label-fraction splits (10%, 25%, 50%, 100%).</li>
+        <li>Ran systematic hyperparameter optimization with Optuna across backbone/algorithm combinations (learning rate, batch size, augmentation), tracking all trials in a persistent SQLite results database for reproducibility.</li>
+        <li>Designed and implemented a config-driven multi-label SSL training pipeline supporting FixMatch and MixMatch, reaching 90% macro-F1 with FixMatch.</li>
+      </ul>
+      <div class="research-tags">
+        <span class="research-tag">PyTorch</span>
+        <span class="research-tag">DINOv2-L</span>
+        <span class="research-tag">EfficientNetV2-L</span>
+        <span class="research-tag">FixMatch</span>
+        <span class="research-tag">Optuna</span>
+        <span class="research-tag">Cleanlab</span>
+        <span class="research-tag">WandB</span>
+        <span class="research-tag">Docker</span>
+      </div>
+      <a class="research-link" href="https://github.com/devo002/Semi-supervised-Learning-for-Visual-Coil-winding-defect-detection" target="_blank">View Code →</a>
     </div>
   </div>
 
@@ -303,16 +346,70 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
   .ai-proj-card p { color: #a8a8ba; font-size: 14px; line-height: 1.55; margin: 0 0 18px; }
   .ai-proj-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
   .ai-proj-tag { background: #15151f; border: 1px solid #2a2a3a; color: #d6d6e0; font-size: 12px; padding: 5px 12px; border-radius: 999px; }
-  .ai-proj-link { font-size: 13px; color: #8fa9ff; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  .ai-proj-link { font-size: 13px; color: #8fa9ff; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-right: 14px; }
   .ai-proj-link:hover { text-decoration: underline; }
 </style>
 
 <div class="ai-proj-grid">
 
+  <div class="ai-proj-card accent-purple">
+    <h4>Fine-tuning a Small LLM for Ticket Triage</h4>
+    <p class="ai-proj-date">Qwen3-4B · QLoRA · 09/2026 – 10/2026</p>
+    <p>Fine-tuned Qwen3-4B with QLoRA for German/English support-ticket triage. On 25 real tickets versus a production Claude Sonnet 4.6 call, core accuracy improved by 20% and cost fell ~17x ($0.29 vs $5.11 per 1,000 tickets); p50 latency was 2.95s vs 2.08s. Runs tracked in Weights &amp; Biases, merged model served with vLLM behind FastAPI and Docker.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">PyTorch</span>
+      <span class="ai-proj-tag">Hugging Face</span>
+      <span class="ai-proj-tag">QLoRA</span>
+      <span class="ai-proj-tag">vLLM</span>
+      <span class="ai-proj-tag">FastAPI</span>
+      <span class="ai-proj-tag">Docker</span>
+      <span class="ai-proj-tag">Weights &amp; Biases</span>
+    </div>
+    <a class="ai-proj-link" href="YOUR_QWEN_GITHUB_LINK" target="_blank">View Code →</a>
+  </div>
+
+  <div class="ai-proj-card accent-blue">
+    <h4>Smart Dispatcher — Agentic Ticket Triage &amp; Dispatch</h4>
+    <p class="ai-proj-date">04/2026 – 09/2026</p>
+    <p>Multi-step LangGraph agent that triages support tickets and drafts dispatch plans, with a human-in-the-loop checkpoint where a reviewer approves or edits every plan. Regex-based guardrails validate LLM output, inventory/manuals/technician lookup are exposed as FastMCP tools, and a self-correction loop retrieves firmware workarounds via RAG (100% recovery on failures in testing). Backed by a 17-case eval suite and a React/FastAPI dashboard that streams each step over SSE, traced in LangSmith.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">LangGraph</span>
+      <span class="ai-proj-tag">FastMCP</span>
+      <span class="ai-proj-tag">ChromaDB</span>
+      <span class="ai-proj-tag">FastAPI</span>
+      <span class="ai-proj-tag">React</span>
+      <span class="ai-proj-tag">LangSmith</span>
+      <span class="ai-proj-tag">Docker</span>
+      <span class="ai-proj-tag">Railway</span>
+    </div>
+    <a class="ai-proj-link" href="https://empire-smart-dispatcher-production.up.railway.app/" target="_blank">Live Demo →</a>
+    <a class="ai-proj-link" href="https://github.com/devo002/Smart-dispatcher-Agent" target="_blank">View Code →</a>
+  </div>
+
+  <div class="ai-proj-card accent-cyan">
+    <h4>RAG-Powered Document Chat System</h4>
+    <p class="ai-proj-date">02/2026 – 06/2026</p>
+    <p>Publicly deployed multimodal RAG app: upload PDFs and get streaming, grounded answers with page-level citations. Hybrid retrieval combines dense BGE embeddings and BM25 with Reciprocal Rank Fusion and LLM reranking across text and image chunks, with live Hit Rate, MRR, faithfulness, answer relevancy and correctness shown in the UI.</p>
+    <div class="ai-proj-tags">
+      <span class="ai-proj-tag">Python</span>
+      <span class="ai-proj-tag">FastAPI</span>
+      <span class="ai-proj-tag">LlamaIndex</span>
+      <span class="ai-proj-tag">Qdrant</span>
+      <span class="ai-proj-tag">SSE</span>
+      <span class="ai-proj-tag">Docker</span>
+      <span class="ai-proj-tag">Railway</span>
+      <span class="ai-proj-tag">GitHub CI/CD</span>
+    </div>
+    <a class="ai-proj-link" href="https://raw.githubusercontent.com/devo002/RAG-doc-chat/main/asset/RAG.gif" target="_blank">Demo →</a>
+    <a class="ai-proj-link" href="https://github.com/devo002/RAG-doc-chat" target="_blank">View Code →</a>
+  </div>
+
   <div class="ai-proj-card accent-blue">
     <h4>AI Ticket Bridge Agent</h4>
-    <p class="ai-proj-date">Teams → Jira Automation · 04/2026</p>
-    <p>Multi-step agent that classifies 70+ Microsoft Teams messages in under 4 Claude API calls, cross-references HubSpot ARR, deduplicates against Jira, and streams decisions to a full-stack review UI.</p>
+    <p class="ai-proj-date">Teams → Jira Automation · 02/2026 – 04/2026</p>
+    <p>AI bridge agent that classifies Microsoft Teams conversations, enriches them with CRM context, and reduces manual ticket creation to a one-click approval workflow. Processes 70+ support messages in fewer than four Claude API calls while streaming progress to a review dashboard, where humans validate recommendations before approved actions sync to Jira and Teams.</p>
     <div class="ai-proj-tags">
       <span class="ai-proj-tag">Python</span>
       <span class="ai-proj-tag">Flask</span>
@@ -377,11 +474,14 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
 ## Education
 ### Master of Science (M.Sc.) in Artificial Intelligence
 **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**, Germany  
-*2022 – 2025*
+*2022 – 2026*
 
 ### Bachelor of Technology in Computer Science
 **Federal University of Technology Minna**, Nigeria  
 *2014 – 2018*
+
+## Languages
+English (Native) — German (Intermediate)
 
 ---
 
