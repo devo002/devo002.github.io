@@ -62,8 +62,6 @@ author_profile: true   # hide the big name card on the left # grid-template-colu
   @media (max-width: 560px) { .demo-grid { grid-template-columns: 1fr; } }
 </style>
 
-<p class="intro-line">AI Engineer (M.Sc. Artificial Intelligence) focused on making LLM systems cheaper without making the answers worse.</p>
-
 🔴 Key Achievements with Live Demos
 
 <div class="demo-grid">
