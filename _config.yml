@@ -119,7 +119,7 @@ author:
   name             : ""
   avatar           : "/assets/newpassport.png" # add this file later if you want a photo
   bio              : |
-                    "AI Engineer with experience building **RAG**, and **agentic AI** systems with **LLM**. I built a LangGraph agent that triages support tickets and drafts dispatch plans, with human approval, deterministic guardrails, and self-correction on failed repairs. Fine-tuned Qwen3-4B to cut triage cost ~17x versus Claude Sonnet 4.6. Research background in **Computer Vision**."
+                    AI Engineer with experience building **RAG**, and **agentic AI** systems with **LLM**. I built a LangGraph agent that triages support tickets and drafts dispatch plans, with human approval, deterministic guardrails, and self-correction on failed repairs. Fine-tuned Qwen3-4B to cut triage cost ~17x versus Claude Sonnet 4.6. Research background in **Computer Vision**.
 
   location         : "Bavaria, Germany"
   email            : "davidmayowaonaiyekan@gmail.com"
